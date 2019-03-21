@@ -28,3 +28,6 @@ You can call this from the *command line* for experimentation, e.g. usage:
  * python3 wd_search.py python Q7397
  * python3 wd_search.py mitre  "Q783794,Q2659904"
 
+## requirements
+
+It requires SPARQLWrapper, pywikibot and pprint
