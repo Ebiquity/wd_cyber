@@ -22,9 +22,9 @@ The return value is a list, roughly ordered from best to worst match.  For examp
     'types':[('Q14001','malware'), ('Q7397','software')]}]
 ```
 
-You can call this from the command line for experimentation, e.g. usage:
-   python3 wd_search.py <string> [<required types>]
-   python3 wd_search.py Adobe
-   python3 wd_search.py python Q7397
-   python3 wd_search.py mitre  "Q783794,Q2659904"
+You can call this from the *command line* for experimentation, e.g. usage:
+ * python3 wd_search.py <string> [<required types>]
+ * python3 wd_search.py Adobe
+ * python3 wd_search.py python Q7397
+ * python3 wd_search.py mitre  "Q783794,Q2659904"
 
