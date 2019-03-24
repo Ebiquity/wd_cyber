@@ -1,0 +1,162 @@
+[
+  {
+    "item": "http://www.wikidata.org/entity/Q1076693",
+    "itemLabel": "personally identifiable information",
+    "itemDescription": "information that can be used to identify, contact, or locate a single person, or to identify an individual in context",
+    "link": "https://en.wikipedia.org/wiki/Personal_data",
+    "text": "Personal data, also known as personally identifying information (PII), or sensitive personal information (SPI), is any information relating to an identifiable person.\nThe abbreviation PII is widely accepted in the United States, but the phrase it abbreviates has four common variants based on personal  / personally, and identifiable / identifying. Not all are equivalent, and for legal purposes the effective definitions vary depending on the jurisdiction and the purposes for which the term is being used.  Under European and other data protection regimes, which centre primarily around the General Data Protection Regulation, the term \"personal data\" is significantly broader, and determines the scope of the regulatory regime.National Institute of Standards and Technology Special Publication 800-122 defines personally identifying information as \"any information about an individual maintained by an agency, including (1) any information that can be used to distinguish or trace an individual's identity, such as name, social security number, date and place of birth, mother's maiden name, or biometric records; and (2) any other information that is linked or linkable to an individual, such as medical, educational, financial, and employment information.\" So, for example, a user's IP address is not classed as PII on its own, but is classified as linked PII. However in the European Union, the IP address of an Internet subscriber may be classed as personal data.The concept of PII has become prevalent as information technology and the Internet have made it easier to collect PII leading to a profitable market in collecting and reselling PII. PII can also be exploited by criminals to stalk or steal the identity of a person, or to aid in the planning of criminal acts. As a response to these threats, many website privacy policies specifically address the gathering of PII, and lawmakers such as the European Parliament have enacted a series of legislation such as the General Data Protection Regulation (GDPR) to limit the distribution and accessibility of PII.Personally identifying information is a legal concept, not a technical concept, and it is not utilised in all jurisdictions. Because of the versatility and power of modern re-identification algorithms, the absence of PII data does not mean that the remaining data does not identify individuals. While some attributes may not be uniquely identifying on their own, any attribute can be potentially identifying in combination with others. These attributes have been referred to as quasi-identifiers or pseudo-identifiers. While such data may not constitute PII in the United States, it is highly likely to remain personal data under European data protection law.\n\n",
+    "aliases": [
+      "sensitive personal information",
+      "personally-identifying information",
+      "personally-identifying data",
+      "personally identifiable data",
+      "personal information",
+      "PII"
+    ],
+    "superClasses": [
+      "sensitive information",
+      "biographic information"
+    ],
+    "types": [
+      "concept"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q16718447",
+    "itemLabel": "Classified information in Russia",
+    "link": "https://en.wikipedia.org/wiki/Classified_information_in_Russia",
+    "text": "In the Russian Federation, a state secret (Russian: \u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u0430\u044f \u0442\u0430\u0439\u043d\u0430; Gosudarstvennaya Tayna), according to the definition adopted in the Official Secrets Act of the Russian Federation, is information protected by the state on its military, foreign policy, economic, intelligence, counterintelligence, operational and investigative and other activities, dissemination of which could harm state security.",
+    "aliases": [],
+    "superClasses": [
+      "classified information"
+    ],
+    "types": []
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q168572",
+    "itemLabel": "Project A119",
+    "itemDescription": "secret plan developed in 1958 by the United States Air Force  aiming to detonate a nuclear bomb on the Moon",
+    "link": "https://en.wikipedia.org/wiki/Project_A119",
+    "text": "Project A119, also known as A Study of Lunar Research Flights, was a top-secret plan developed in 1958 by the United States Air Force. The aim of the project was to detonate a nuclear bomb on the Moon, which would help in answering some of the mysteries in planetary astronomy and astrogeology. If the explosive device detonated on the surface, not in a lunar crater, the flash of explosive light would have been faintly visible to people on Earth with their naked eye, a show of force resulting in a possible boosting of domestic morale in the capabilities of the United States, a boost that was needed after the Soviet Union took an early lead in the Space Race and was also working on a similar project.\nThe project was never carried out, being cancelled primarily out of a fear of a negative public reaction, with the potential militarization of space that it would also have signified, and because a Moon landing would undoubtedly be a more popular achievement in the eyes of the American and international public alike. A similar project by the Soviet Union also never came to fruition.\nThe existence of the US project was revealed in 2000 by a former executive at the National Aeronautics and Space Administration (NASA), Leonard Reiffel, who led the project in 1958. A young Carl Sagan was part of the team responsible for predicting the effects of a nuclear explosion in vacuum and low gravity and in evaluating the scientific value of the project.\nThe project documents remained secret for nearly 45 years, and despite Reiffel's revelations, the United States government has never officially recognized its involvement in the study.",
+    "aliases": [
+      "nuke on the moon",
+      "A Study of Lunar Research Flights"
+    ],
+    "superClasses": [],
+    "types": [
+      "black project"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2719808",
+    "itemLabel": "black project",
+    "itemDescription": "US and UK term; highly classified military/defense project",
+    "link": "https://en.wikipedia.org/wiki/Black_project",
+    "text": "A black project is a term used for a highly classified military or defense project publicly unacknowledged by government, military personnel, and contractors. Examples of United States military aircraft developed as black projects include the F-117 Nighthawk stealth attack aircraft and the B-2 Spirit stealth bomber, both of which were highly classified and denied as existing until ready to be announced to the public. In the United States, the formal term for a black project is Special access program (SAP).\nThe money that funds these projects is referred to as the black budget.\n\n",
+    "aliases": [],
+    "superClasses": [
+      "Special access program",
+      "military project",
+      "secret project"
+    ],
+    "types": [
+      "term"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q27901769",
+    "itemLabel": "biometric data",
+    "aliases": [],
+    "superClasses": [
+      "personally identifiable information"
+    ],
+    "types": []
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q4223051",
+    "itemLabel": "Classified information in the United Kingdom",
+    "itemDescription": "protect information from intentional or inadvertent release to unauthorised readers",
+    "link": "https://en.wikipedia.org/wiki/Classified_information_in_the_United_Kingdom",
+    "text": "Classified information in the United Kingdom is a system used to protect information from intentional or inadvertent release to unauthorised readers. The system is organised by the Cabinet Office and is implemented throughout central and local government and critical national infrastructure. The system is also used by private sector bodies that provide services to the public sector.\nThe current classification system, the Government Security Classifications Policy, replaced the old Government Protective Marking Scheme in 2014. Since classifications can last for 100 years many documents written using the old scheme still exist and need protection.",
+    "aliases": [],
+    "superClasses": [
+      "classified information"
+    ],
+    "types": []
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q4223055",
+    "itemLabel": "Classified information in the United States",
+    "link": "https://en.wikipedia.org/wiki/Classified_information_in_the_United_States",
+    "text": "The United States government classification system is established under Executive Order 13526, the latest in a long series of executive orders on the topic. Issued by President Barack Obama in 2009, Executive Order 13526 replaced earlier executive orders on the topic and modified the regulations codified to 32 C.F.R. 2001. It lays out the system of classification, declassification, and handling of national security information generated by the U.S. government and its employees and contractors, as well as information received from other governments.The desired degree of secrecy about such information is known as its sensitivity. Sensitivity is based upon a calculation of the damage to national security that the release of the information would cause. The United States has three levels of classification: Confidential, Secret, and Top Secret. Each level of classification indicates an increasing degree of sensitivity. Thus, if one holds a Top Secret security clearance, one is allowed to handle information up to the level of Top Secret, including Secret and Confidential information. If one holds a Secret clearance, one may not then handle Top Secret information, but may handle Secret and Confidential classified information.\nThe United States does not have a British-style Official Secrets Act; instead, several laws protect classified information, including the Espionage Act of 1917, the Atomic Energy Act of 1954 and the Intelligence Identities Protection Act of 1982. \nA 2013 report to Congress noted that the relevant laws have been mostly used to prosecute foreign agents, or those passing classified information to them, and that leaks to the press have rarely been prosecuted. The legislative and executive branches of government, including US presidents, have frequently leaked classified information to journalists. Congress has repeatedly resisted or failed to pass a law that generally outlaws disclosing classified information. Most espionage law only criminalizes national defense information; only a jury can decide if a given document meets that criterion, and judges have repeatedly said that being \"classified\" does not necessarily make information become related to the \"national defense\". Furthermore, by law, information may not be classified merely because it would be embarrassing or to cover illegal activity; information may only be classified to protect national security objectives.The United States over the past decades under the Obama and Clinton administrations has released classified information to foreign governments for diplomatic goodwill, known as declassification diplomacy. Examples include information on Augusto Pinochet to the government of Chile. In October 2015, US Secretary of State John Kerry provided Michelle Bachelet, Chile's president, a pen drive containing hundreds of newly declassified documents.",
+    "aliases": [],
+    "superClasses": [
+      "classified information"
+    ],
+    "types": []
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q47460806",
+    "itemLabel": "address restricted",
+    "itemDescription": "designation by an official archaeological or historic preservation authority that a cultural site's location is exempt from public disclosure; for use with P276",
+    "aliases": [
+      "not for publication",
+      "location confidential",
+      "AR"
+    ],
+    "superClasses": [
+      "sensitive information"
+    ],
+    "types": [
+      "professional secrecy"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q55720035",
+    "itemLabel": "secret project",
+    "itemDescription": "government or military project protected by State secret",
+    "aliases": [],
+    "superClasses": [
+      "classified information",
+      "government program"
+    ],
+    "types": []
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q56189129",
+    "itemLabel": "Mario ricardo vargas",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "personally identifiable information",
+      "education",
+      "human"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7251300",
+    "itemLabel": "protected health information",
+    "itemDescription": "information about health status, provision of health care, or payment for health care related to a specific individual",
+    "link": "https://en.wikipedia.org/wiki/Protected_health_information",
+    "text": "Protected health information (PHI) under the US law is any information about health status, provision of health care, or payment for health care that is created or collected by a Covered Entity (or a Business Associate of a Covered Entity), and can be linked to a specific individual. This is interpreted rather broadly and includes any part of a patient's medical record or payment history.PHI is often sought out in datasets for de-identification before researchers share the dataset publicly. Researchers remove individually identifiable PHI from a dataset to preserve privacy for research participants.\n\n",
+    "aliases": [
+      "PHI"
+    ],
+    "superClasses": [
+      "personally identifiable information"
+    ],
+    "types": []
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q846498",
+    "itemLabel": "classified information",
+    "itemDescription": "material that a government body claims is sensitive information that requires protection of confidentiality, integrity, or availability",
+    "link": "https://en.wikipedia.org/wiki/Classified_information",
+    "text": "Classified information is material that a government body deems to be sensitive information that must be protected. Access is restricted by law or regulation to particular groups of people with the necessary security clearance and need to know, and intentional  mishandling of the material can incur criminal penalties. A formal security clearance is required to view or handle classified documents or to access classified data. The clearance process requires a satisfactory background investigation. Documents and other information must be properly marked \"by the author\" with one of several (hierarchical) levels of sensitivity\u2014e.g. restricted, confidential, secret and top secret. The choice of level is based on an impact assessment; governments have their own criteria, which include how to determine the classification of an information asset, and rules on how to protect information classified at each level. This often includes security clearances for personnel handling the information. Although \"classified information\" refers to the formal categorization and marking of material by level of sensitivity, it has also developed a sense synonymous with \"censored\" in US English. A distinction is often made between formal security classification and privacy markings such as \"commercial in confidence\". Classifications can be used with additional keywords that give more detailed instructions on how data should be used or protected.\nSome corporations and non-government organizations also assign levels of protection to their private information, either from a desire to protect trade secrets, or because of laws and regulations governing various matters such as personal privacy, sealed legal proceedings and the timing of financial information releases.\nWith the passage of time much classified information can become a bit less sensitive, or becomes much less sensitive, and may be declassified and made public. Since the late twentieth century there has been freedom of information legislation in some countries, whereby the public is deemed to have the right to all information that is not considered to be damaging if released. Sometimes documents are released with information still considered confidential obscured (redacted), as in the example at right.",
+    "aliases": [],
+    "superClasses": [
+      "sensitive information"
+    ],
+    "types": []
+  }
+]

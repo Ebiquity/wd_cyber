@@ -1,0 +1,574 @@
+[
+  {
+    "item": "http://www.wikidata.org/entity/Q1051625",
+    "itemLabel": "HAS-160",
+    "link": "https://en.wikipedia.org/wiki/HAS-160",
+    "text": "HAS-160 is a cryptographic hash function designed for use with the Korean KCDSA digital signature algorithm.  It is derived from SHA-1, with assorted changes intended to increase its security. It produces a 160-bit output.\nHAS-160 is used in the same way as SHA-1. First it divides input in blocks of 512 bits each and pads the final block. A digest function updates the intermediate hash value by processing the input blocks in turn.\nThe message digest algorithm consists of 80 rounds.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptographic hash function"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1142190",
+    "itemLabel": "Skein",
+    "link": "https://en.wikipedia.org/wiki/Skein_(hash_function)",
+    "text": "Skein is a cryptographic hash function and one of five finalists in the NIST hash function competition. Entered as a candidate to become the SHA-3 standard, the successor of SHA-1 and SHA-2, it ultimately lost to NIST hash candidate Keccak.The name Skein refers to how the Skein function intertwines the input, similar to a skein of yarn.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptographic hash function"
+    ],
+    "itemDescription": "cryptographic hash function"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1144542",
+    "itemLabel": "MD4",
+    "link": "https://en.wikipedia.org/wiki/MD4",
+    "text": "The MD4 Message-Digest Algorithm is a cryptographic hash function developed by Ronald Rivest in 1990. The digest length is 128 bits. The algorithm has influenced later designs, such as the MD5, SHA-1 and RIPEMD algorithms. The initialism \"MD\" stands for \"Message Digest.\"\n\nThe security of MD4 has been severely compromised. The first full collision attack against MD4 was published in 1995 and several newer attacks have been published since then. As of 2007, an attack can generate collisions in less than 2 MD4 hash operations. A theoretical preimage attack also exists.\nA variant of MD4 is used in the ed2k URI scheme to provide a unique identifier for a file in the popular eDonkey2000 / eMule P2P networks. MD4 was also used by the rsync protocol (prior to version 3.0.0.)\nMD4 is used to compute NTLM password-derived key digests on Microsoft Windows NT, XP, Vista, 7, 8, and 10.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptographic hash function"
+    ],
+    "itemDescription": "obsolete cryptographic hash function"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1190947",
+    "itemLabel": "Secure Hash Algorithm 3",
+    "link": "https://en.wikipedia.org/wiki/SHA-3",
+    "text": "SHA-3 (Secure Hash Algorithm 3) is the latest member of the Secure Hash Algorithm family of standards, released by NIST on August 5, 2015. Although part of the same series of standards, SHA-3 is internally different from the MD5-like structure of SHA-1 and SHA-2.\nSHA-3 is a subset of the broader cryptographic primitive family Keccak (), designed by Guido Bertoni, Joan Daemen, Micha\u00ebl Peeters, and Gilles Van Assche, building upon RadioGat\u00fan. Keccak's authors have proposed additional uses for the function, not (yet) standardized by NIST, including a stream cipher, an authenticated encryption system, a \"tree\" hashing scheme for faster hashing on certain architectures, and AEAD ciphers Keyak and Ketje.Keccak is based on a novel approach called sponge construction. Sponge construction is based on a wide random function or random permutation, and allows inputting (\"absorbing\" in sponge terminology) any amount of data, and outputting (\"squeezing\") any amount of data, while acting as a pseudorandom function with regard to all previous inputs. This leads to great flexibility.\nNIST does not currently plan to withdraw SHA-2 or remove it from the revised Secure Hash Standard. The purpose of SHA-3 is that it can be\ndirectly substituted for SHA-2 in current applications if necessary, and to significantly improve the robustness of NIST's overall hash algorithm toolkit.The creators of the Keccak algorithms and the SHA-3 functions suggest using the faster function KangarooTwelve (see later in the article) with adjusted parameters and a new tree hashing mode without extra overhead for small message sizes.",
+    "aliases": [
+      "SHA3",
+      "SHA 3",
+      "Keccak",
+      "SHA-3"
+    ],
+    "superClasses": [],
+    "types": [
+      "SHA hash functions"
+    ],
+    "itemDescription": "set of cryptographic hash functions"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q13414952",
+    "itemLabel": "SHA-1",
+    "link": "https://en.wikipedia.org/wiki/SHA-1",
+    "text": "In cryptography, SHA-1 (Secure Hash Algorithm 1) is a cryptographic hash function which takes an input and  produces a 160-bit (20-byte) hash value known as a message digest \u2013 typically rendered as a hexadecimal number, 40 digits long. It was designed by the United States National Security Agency, and is a U.S. Federal Information Processing Standard.Since 2005 SHA-1 has not been considered secure against well-funded opponents, and since 2010 many organizations have recommended its replacement by SHA-2 or SHA-3. Microsoft, Google, Apple and Mozilla have all announced that their respective browsers will stop accepting SHA-1 SSL certificates by 2017.In 2017 CWI Amsterdam and Google announced they had performed a collision attack against SHA-1, publishing two dissimilar PDF files which produced the same SHA-1 hash.",
+    "aliases": [
+      "SHA1",
+      "SHA 1",
+      "Secure Hash Algorithm 1"
+    ],
+    "superClasses": [],
+    "types": [
+      "SHA hash functions"
+    ],
+    "itemDescription": "cryptographic hash function"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1432392",
+    "itemLabel": "Snefru",
+    "link": "https://en.wikipedia.org/wiki/Snefru",
+    "text": "Snefru is a cryptographic hash function invented by Ralph Merkle\nin 1990 while working at Xerox PARC.\nThe function supports 128-bit and 256-bit output. It was named after the Egyptian Pharaoh Sneferu, continuing the tradition of the Khufu and Khafre block ciphers.\nThe original design of Snefru was shown to be insecure by Eli Biham and Adi Shamir who were able to use differential cryptanalysis to find hash collisions. The design was then modified by increasing the number of iterations of the main pass of the algorithm from two to eight. Although differential cryptanalysis can break the revised version with less complexity than brute force search (a certificational weakness), the attack requires \n  \n    \n      \n        \n          2\n          \n            88.5\n          \n        \n      \n    \n    {\\displaystyle 2^{88.5}}\n   operations and is thus not currently feasible in practice.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptographic hash function"
+    ],
+    "itemDescription": "cryptographic hash function"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15279482",
+    "itemLabel": "BLAKE",
+    "link": "https://en.wikipedia.org/wiki/BLAKE_(hash_function)",
+    "text": "BLAKE and BLAKE2 are cryptographic hash functions based on Dan Bernstein's ChaCha stream cipher, but a permuted copy of the input block, XORed with some round constants, is added before each ChaCha round.  Like SHA-2, there are two variants differing in the word size. ChaCha operates on a 4\u00d74 array of words.  BLAKE repeatedly combines an 8-word hash value with 16 message words, truncating the ChaCha result to obtain the next hash value. BLAKE-256 and BLAKE-224 use 32-bit words and produce digest sizes of 256 bits and 224 bits, respectively, while BLAKE-512 and BLAKE-384 use 64-bit words and produce digest sizes of 512 bits and 384 bits, respectively.BLAKE2b is faster than SHA-3, SHA-2, SHA-1, and MD5 on 64-bit x64 and ARM architectures.  BLAKE2 provides security superior to SHA-2 and similar to that of SHA-3: immunity to length extension, indifferentiability from a random oracle, etc.",
+    "aliases": [
+      "BLAKE2",
+      "BLAKE_(hash_function)"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptographic hash function"
+    ],
+    "itemDescription": "cryptographic hash function submitted to the NIST hash function competition"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15400317",
+    "itemLabel": "HAIFA construction",
+    "link": "https://en.wikipedia.org/wiki/HAIFA_construction",
+    "text": "The HAIFA construction (hash iterative framework) is a cryptographic structure used in the design of hash functions. It is one of the modern alternatives to the Merkle\u2013Damg\u00e5rd construction, avoiding its weaknesses like length extension attacks. The construction was designed by Eli Biham and Orr Dunkelman in 2007.\nThree of the 14 second round candidates in the NIST hash function competition were based on HAIFA constructions (BLAKE, SHAvite-3, ECHO). Other hash functions based on it are LAKE, Sarmal, SWIFFTX and HNF-256. The construction of Skein (Unique Block Iteration) is similar to HAIFA. Another alternative construction is the sponge construction.",
+    "aliases": [
+      "Hash Iterative Framework"
+    ],
+    "superClasses": [
+      "cryptographic hash function"
+    ],
+    "types": [],
+    "itemDescription": "design method for cryptographic hash functions"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1551743",
+    "itemLabel": "Gr\u00f8stl",
+    "link": "https://en.wikipedia.org/wiki/Gr%C3%B8stl",
+    "text": "",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptographic hash function"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q16525572",
+    "itemLabel": "Q16525572",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptographic hash function"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q16635204",
+    "itemLabel": "Streebog",
+    "link": "https://en.wikipedia.org/wiki/Streebog",
+    "text": "Streebog is a cryptographic hash function defined in the Russian national standard GOST R 34.11-2012 Information Technology \u2013 Cryptographic Information Security \u2013 Hash Function. It was created to replace an obsolete GOST hash function defined in the old standard GOST R 34.11-94, and as an asymmetric reply to SHA-3 competition by the US National Institute of Standards and Technology. The function is also described in RFC 6986.",
+    "aliases": [
+      "GOST R 34.11-2012"
+    ],
+    "superClasses": [],
+    "types": [
+      "GOST",
+      "cryptographic hash function"
+    ],
+    "itemDescription": "russian cryptographic hash function standard"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q16934823",
+    "itemLabel": "NSA Suite A Cryptography",
+    "link": "https://en.wikipedia.org/wiki/NSA_Suite_A_Cryptography",
+    "text": "NSA Suite A Cryptography is NSA cryptography which \"contains classified algorithms that will not be released.\" \"Suite A will be used for the protection of some categories of especially sensitive information (a small percentage of the overall national security-related information assurance market).\"\nIncomplete list of Suite A algorithms:\nACCORDION\nBATON\nCDL 1\nCDL 2\nFFC\nFIREFLY\nJOSEKI\nKEESEE\nMAYFLY\nMEDLEY\nSAVILLE\nSHILLELAGH\nWALBURN\nWEASEL",
+    "aliases": [],
+    "superClasses": [
+      "cryptographic hash function",
+      "cipher",
+      "cryptographic protocol"
+    ],
+    "types": []
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1757463",
+    "itemLabel": "Merkle\u2013Damg\u00e5rd construction",
+    "link": "https://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction",
+    "text": "",
+    "aliases": [
+      "Merkle\u2013Damg\u00e5rd hash function"
+    ],
+    "superClasses": [
+      "cryptographic hash function"
+    ],
+    "types": [],
+    "itemDescription": "method of building collision-resistant cryptographic hash functions"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q185235",
+    "itemLabel": "MD5",
+    "link": "https://en.wikipedia.org/wiki/MD5",
+    "text": "The MD5 message-digest algorithm is a widely used hash function producing a 128-bit hash value. Although MD5 was initially designed to be used as a cryptographic hash function, it has been found to suffer from extensive vulnerabilities. It can still be used as a checksum to verify data integrity, but only against unintentional corruption. It remains suitable for other non-cryptographic purposes, for example for determining the partition for a particular key in a partitioned database.One basic requirement of any cryptographic hash function is that it should be computationally infeasible to find two distinct messages which hash to the same value. MD5 fails this requirement catastrophically; such collisions can be found in seconds on an ordinary home computer.\nThe weaknesses of MD5 have been exploited in the field, most infamously by the Flame malware in 2012. The CMU Software Engineering Institute considers MD5 essentially \"cryptographically broken and unsuitable for further use\".MD5 was designed by Ronald Rivest in 1991 to replace an earlier hash function MD4, and was specified in 1992 as RFC 1321.",
+    "aliases": [
+      "Message Digest Algorithm 5",
+      "MD5 Message-Digest Algorithm"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptographic hash function"
+    ],
+    "itemDescription": "message-digest hashing algorithm"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1893324",
+    "itemLabel": "Whirlpool",
+    "link": "https://en.wikipedia.org/wiki/Whirlpool_(hash_function)",
+    "text": "In computer science and cryptography, Whirlpool (sometimes styled WHIRLPOOL) is a cryptographic hash function. It was designed by Vincent Rijmen (co-creator of  the Advanced Encryption Standard) and Paulo S. L. M. Barreto, who first described it in 2000. \nThe hash has been recommended by the NESSIE project. It has also been adopted by the International Organization for Standardization (ISO) and the International Electrotechnical Commission (IEC) as part of the joint ISO/IEC 10118-3 international standard.",
+    "aliases": [
+      "WHIRLPOOL"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptographic hash function"
+    ],
+    "itemDescription": "cryptographic hash function"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1923906",
+    "itemLabel": "Message Digest",
+    "aliases": [
+      "MD"
+    ],
+    "superClasses": [
+      "cryptographic hash function"
+    ],
+    "types": [],
+    "itemDescription": "group of cryptographic protocols"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1935697",
+    "itemLabel": "Tiger",
+    "aliases": [
+      "Tiger2",
+      "Tiger (cryptography)"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptographic hash function"
+    ],
+    "itemDescription": "cryptographic hash function"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1968605",
+    "itemLabel": "Secure Hash Algorithm 2",
+    "link": "https://en.wikipedia.org/wiki/SHA-2",
+    "text": "SHA-2 (Secure Hash Algorithm 2) is a set of cryptographic hash functions designed by the United States National Security Agency (NSA). They are built using the Merkle\u2013Damg\u00e5rd structure, from a one-way compression function itself built using the Davies\u2013Meyer structure from a (classified) specialized block cipher.\nSHA-2 includes significant changes from its predecessor, SHA-1. The SHA-2 family consists of six hash functions with digests (hash values) that are 224, 256, 384 or 512 bits: SHA-224, SHA-256, SHA-384, SHA-512, SHA-512/224, SHA-512/256.\nSHA-256 and SHA-512 are novel hash functions computed with 32-bit and 64-bit words, respectively. They use different shift amounts and additive constants, but their structures are otherwise virtually identical, differing only in the number of rounds. SHA-224 and SHA-384 are simply truncated versions of SHA-256 and SHA-512 respectively, computed with different initial values. SHA-512/224 and SHA-512/256 are also truncated versions of SHA-512, but the initial values are generated using the method described in Federal Information Processing Standards (FIPS) PUB 180-4. SHA-2 was published in 2001 by the National Institute of Standards and Technology (NIST)  a U.S. federal standard (FIPS). The SHA-2 family of algorithms are patented in US patent 6829355. The United States has released the patent under a royalty-free license.Currently, the best public attacks break preimage resistance for 52 out of 64 rounds of SHA-256 or 57 out of 80 rounds of SHA-512, and collision resistance for 46 out of 64 rounds of SHA-256.SHA-256 and SHA-512, and, to a lesser degree, SHA-224 and SHA-384 are prone to length extension attacks, rendering it insecure for some applications. It is thus generally recommended to switch to SHA-3 for 512-bit hashes and to use SHA-512/224 and SHA-512/256 instead of SHA-224 and SHA-256. This also happens to be faster than SHA-224 and SHA-256 on x86-64 processor architecture, since SHA-512 works on 64-bit instead of 32-bit words.",
+    "aliases": [
+      "SHA2",
+      "SHA-384",
+      "SHA 2",
+      "SHA-512",
+      "SHA-256",
+      "SHA-224",
+      "SHA-2"
+    ],
+    "superClasses": [
+      "SHA hash functions"
+    ],
+    "types": [
+      "algorithm"
+    ],
+    "itemDescription": "set of cryptographic hash functions"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q19845304",
+    "itemLabel": "cryptographic hash and stream cipher function",
+    "aliases": [
+      "cryptographic hash function and stream cipher"
+    ],
+    "superClasses": [
+      "cryptographic hash function",
+      "stream cipher"
+    ],
+    "types": [],
+    "itemDescription": "functions both usable as cryptographic hash and stream cypher"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2031069",
+    "itemLabel": "MD6",
+    "link": "https://en.wikipedia.org/wiki/MD6",
+    "text": "The MD6 Message-Digest Algorithm is a cryptographic hash function. It uses a Merkle tree-like structure to allow for immense parallel computation of hashes for very long inputs. Authors claim a performance of 28 cycles per byte for MD6-256 on an Intel Core 2 Duo and provable resistance against differential cryptanalysis. The source code of the reference implementation was released under MIT license.Speeds in excess of 1 GB/s have been reported to be possible for long messages on 16-core CPU architecture.In December 2008, Douglas Held of Fortify Software discovered a buffer overflow in the original MD6 hash algorithm's reference implementation. This error was later made public by Ron Rivest on 19 February 2009, with a release of a corrected reference implementation in advance of the Fortify Report.MD6 was submitted to the NIST SHA-3 competition. However, on July 1, 2009, Rivest posted a comment at NIST that MD6 is not yet ready to be a candidate for SHA-3 because of speed issues, a \"gap in the proof that the submitted version of MD6 is resistant to differential attacks\", and an inability to supply such a proof for a faster reduced-round version, although Rivest also stated at the MD6 website that it is not withdrawn formally. MD6 did not advance to the second round of the SHA-3 competition. In September 2011, a paper presenting an improved proof that MD6 and faster reduced-round versions are resistant to differential attacks was posted to the MD6 website.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptographic hash function"
+    ],
+    "itemDescription": "cryptographic hash function"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q20745583",
+    "itemLabel": "RIPEMD-160",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptographic hash function"
+    ],
+    "itemDescription": "cryptographic hash function"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q21157922",
+    "itemLabel": "Kupyna",
+    "link": "https://en.wikipedia.org/wiki/Kupyna",
+    "text": "Kupyna is a cryptographic hash function defined in the Ukrainian national standard DSTU 7564:2014. It was created to replace an obsolete GOST hash function defined in the old standard GOST 34.11-95, similar to Streebog hash function standardized in Russia.\nIn addition to the hash function, the standard also describes message authentication code generation using Kupyna with digest sizes 256, 384 and 512 bits.",
+    "aliases": [
+      "DSTU 7564:2014"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptographic hash function"
+    ],
+    "itemDescription": "Ukrainian cryptographic hash function standard"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2124306",
+    "itemLabel": "RIPEMD",
+    "link": "https://en.wikipedia.org/wiki/RIPEMD",
+    "text": "RIPEMD (RIPE Message Digest) is a family of cryptographic hash functions developed in 1992 (the original RIPEMD) and 1996 (other variants). There are five functions in the family: RIPEMD, RIPEMD-128, RIPEMD-160, RIPEMD-256, and RIPEMD-320, of which RIPEMD-160 is the most common.\nThe original RIPEMD, as well as RIPEMD-128, is not considered secure because 128-bit result is too small and also (for the original RIPEMD) because of design weaknesses. The 256- and 320-bit versions of RIPEMD provide the same level of security as RIPEMD-128 and RIPEMD-160, respectively; they are designed for applications where the security level is sufficient but longer hash result is necessary.\nWhile RIPEMD functions are less popular than SHA-1 and SHA-2, they are used, among others, in Bitcoin and other cryptocurrencies based on Bitcoin.",
+    "aliases": [
+      "RIPEMD160",
+      "RIPEMD-160"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptographic hash function"
+    ],
+    "itemDescription": "cryptographic hash function"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2354940",
+    "itemLabel": "N-Hash",
+    "link": "https://en.wikipedia.org/wiki/N-Hash",
+    "text": "In cryptography, N-Hash is a cryptographic hash function based on the FEAL round function, and is now considered insecure. It was proposed in 1990 by Miyaguchi et al.; weaknesses were published the following year.\nN-Hash has a 128-bit hash size. A message is divided into 128-bit blocks, and each block is combined with the hash value computed so far using the g compression function. g contains eight rounds, each of which uses an F function, similar to the one used by FEAL.\nEli Biham and Adi Shamir (1991) applied the technique of differential cryptanalysis to N-Hash, and showed that collisions could be generated faster than by a birthday attack for N-Hash variants with even up to 12 rounds.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptographic hash function"
+    ],
+    "itemDescription": "obsolete cryptographic hash function"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q30678451",
+    "itemLabel": "Quark",
+    "link": "https://en.wikipedia.org/wiki/Quark_(hash_function)",
+    "text": "Quark is a cryptographic hash function (family).\nIt was designed by Jean-Philippe Aumasson, Luca Henzen, Willi Meier and Mar\u00eda Naya-Plasencia.\nQuark was created because of the expressed need by application designers (notably for implementing RFID protocols) for a lightweight cryptographic hash function.\nThe SHA-3 NIST hash function competition concerned general-purpose designs and focused on software performance.\nQuark is a lightweight hash function, based on a single security level and on the sponge construction, to minimize memory requirements. Inspired by the lightweight ciphers Grain and KATAN, the hash function family Quark is composed of the three instances u-Quark, d-Quark, and t-Quark. Hardware benchmarks show that Quark compares well to previous lightweight hashes.\nFor example, the u-Quark conjecturally instance provides at least 64-bit security against all attacks (collisions, multicollisions, distinguishers, etc.), fits in 1379 gate-equivalents, and consumes in average 2.44 \u00b5W at 100 kHz in 0.18 \u00b5m ASIC.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptographic hash function"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3359556",
+    "itemLabel": "Panama",
+    "link": "https://en.wikipedia.org/wiki/Panama_(cryptography)",
+    "text": "Panama is a cryptographic primitive which can be used both as a hash function and a stream cipher, but its hash function mode of operation has been broken and is not suitable for cryptographic use.  Based on StepRightUp, it was designed by Joan Daemen and Craig Clapp and presented in the paper Fast Hashing and Stream Encryption with PANAMA on the Fast Software Encryption (FSE) conference 1998.  The cipher has influenced several other designs, for example MUGI and SHA-3.The primitive can be used both as a hash function and a stream cipher. The stream cipher uses a 256-bit key and the performance of the cipher is very good reaching 2 cycles per byte.",
+    "aliases": [
+      "Panama (cryptography)",
+      "PANAMA"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptographic hash and stream cipher function"
+    ],
+    "itemDescription": "cryptography primitive"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3415207",
+    "itemLabel": "RIPEMD-128",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptographic hash function"
+    ],
+    "itemDescription": "cryptographic hash function"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3459557",
+    "itemLabel": "SHA-0",
+    "aliases": [
+      "SHA0",
+      "SHA 0",
+      "Secure Hash Algorithm 0"
+    ],
+    "superClasses": [],
+    "types": [
+      "SHA hash functions"
+    ],
+    "itemDescription": "cryptographic hash function"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3498399",
+    "itemLabel": "StepRightUp",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptographic hash and stream cipher function"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3553011",
+    "itemLabel": "Very smooth hash",
+    "link": "https://en.wikipedia.org/wiki/Very_smooth_hash",
+    "text": "In cryptography, Very Smooth Hash (VSH) is a provably secure  cryptographic hash function invented in 2005 by Scott Contini, Arjen Lenstra and Ron Steinfeld.Provably secure means that finding collisions is as difficult as some known hard mathematical problem. Unlike other provably secure collision-resistant hashes, VSH is efficient and usable in practice. Asymptotically, it only requires a single multiplication per log(n) message-bits and uses RSA-type arithmetic. Therefore, VSH can be useful in embedded environments where code space is limited.\nTwo major variants of VSH were proposed. For one, finding a collision is provably as difficult as finding a nontrivial modular square root of a very smooth number modulo n. The other one uses a prime modulus p (with no trapdoor), and its security proof relies on the hardness of finding discrete logarithms of very smooth numbers modulo p. Both versions have similar efficiency.\nVSH is not suitable as a substitute for a random oracle, but can be used to build a provably secure randomized trapdoor hash function. This function can replace the trapdoor function used in the Cramer\u2013Shoup signature scheme, maintaining its provable security while speeding up verification time by about 50%.",
+    "aliases": [
+      "VSH"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptographic hash function"
+    ],
+    "itemDescription": "cryptographic hash function"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3756229",
+    "itemLabel": "GOST R 34.11-94 and GOST 34.311-95",
+    "link": "https://en.wikipedia.org/wiki/GOST_(hash_function)",
+    "text": "The GOST hash function, defined in the standards GOST R 34.11-94 and GOST 34.311-95 is a 256-bit cryptographic hash function. It was initially defined in the Russian national standard GOST R 34.11-94 Information Technology \u2013 Cryptographic Information Security \u2013 Hash Function. The equivalent standard used by other member-states of the CIS is GOST 34.311-95.\nThis function must not be confused with a different Streebog hash function, which is defined in the new revision of the standard GOST R 34.11-2012.The GOST hash function is based on the GOST block cipher.",
+    "aliases": [
+      "GOST 28147-89 IMIT",
+      "GOST R 34.11-94",
+      "GOST hash function",
+      "GOST 34.311-95"
+    ],
+    "superClasses": [],
+    "types": [
+      "GOST",
+      "cryptographic hash function"
+    ],
+    "itemDescription": "Russian cryptographic hash function standard"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3841252",
+    "itemLabel": "MDC-2",
+    "link": "https://en.wikipedia.org/wiki/MDC-2",
+    "text": "In cryptography, MDC-2 (Modification Detection Code 2, sometimes called Meyer\u2013Schilling, standardized in ISO 10118-2) is a cryptographic hash function. MDC-2 is a hash function based on a block cipher with a proof of security in the ideal-cipher model. The length of the output hash depends on the underlying block cipher used.\n\n",
+    "aliases": [
+      "MDC2"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptographic hash function"
+    ],
+    "itemDescription": "cryptographic hash function, based on an arbitrary block cipher"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q387688",
+    "itemLabel": "SHA hash functions",
+    "link": "https://en.wikipedia.org/wiki/Secure_Hash_Algorithms",
+    "text": "The Secure Hash Algorithms are a family of cryptographic hash functions published by the National Institute of Standards and Technology (NIST) as a U.S. Federal Information Processing Standard (FIPS), including:\n\nSHA-0: A retronym applied to the original version of the 160-bit hash function published in 1993 under the name \"SHA\". It was withdrawn shortly after publication due to an undisclosed \"significant flaw\" and replaced by the slightly revised version SHA-1.\nSHA-1: A 160-bit hash function which resembles the earlier MD5 algorithm. This was designed by the National Security Agency (NSA) to be part of the Digital Signature Algorithm. Cryptographic weaknesses were discovered in SHA-1, and the standard was no longer approved for most cryptographic uses after 2010.\nSHA-2: A family of two similar hash functions, with different block sizes, known as SHA-256 and SHA-512. They differ in the word size; SHA-256 uses 32-bit words where SHA-512 uses 64-bit words. There are also truncated versions of each standard, known as SHA-224, SHA-384, SHA-512/224 and SHA-512/256. These were also designed by the NSA.\nSHA-3: A hash function formerly called Keccak, chosen in 2012 after a public competition among non-NSA designers. It supports the same hash lengths as SHA-2, and its internal structure differs significantly from the rest of the SHA family.The corresponding standards are FIPS PUB 180 (original SHA), FIPS PUB 180-1 (SHA-1), FIPS PUB 180-2 (SHA-1, SHA-256, SHA-384, and SHA-512). NIST has updated Draft FIPS Publication 202, SHA-3 Standard separate from the Secure Hash Standard (SHS).",
+    "aliases": [
+      "Secure Hash Algorithm"
+    ],
+    "superClasses": [
+      "cryptographic hash function"
+    ],
+    "types": [],
+    "itemDescription": "family of cryptographic hash functions"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q4040382",
+    "itemLabel": "Q4040382",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptographic hash function"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q4041729",
+    "itemLabel": "JH",
+    "link": "https://en.wikipedia.org/wiki/JH_(hash_function)",
+    "text": "JH is a  cryptographic hash function submitted to the NIST hash function competition by Hongjun Wu. Though chosen as one of the five finalists of the competition, JH ultimately lost to NIST hash candidate Keccak. JH has a 1024-bit state, and works on 512-bit input blocks.  Processing an input block consists of three steps:\n\nXOR the input block into the left half of the state.\nApply a 42-round unkeyed permutation (encryption function) to the state.  This consists of 42 repetitions of:\nBreak the input into 256 4-bit blocks, and map each through one of two 4-bit S-boxes, the choice being made by a 256-bit round-dependent key schedule.  Equivalently, combine each input block with a key bit, and map the result through a 5\u21924 bit S-box.\nMix adjacent 4-bit blocks using a maximum distance separable code over GF(24).\nPermute 4-bit blocks so that they will be adjacent to different blocks in following rounds.\nXOR the input block into the right half of the state.The resulting digest is the first 224, 256, 384 or 512 bits from the 1024-bit final value.\nIt is well suited to a bit slicing implementation using the SSE2 instruction set, giving speeds of 16.8 cycles per byte.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptographic hash function"
+    ],
+    "itemDescription": "cryptographic hash function designed by Hongjun Wu"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5365792",
+    "itemLabel": "Elliptic curve only hash",
+    "link": "https://en.wikipedia.org/wiki/Elliptic_curve_only_hash",
+    "text": "The elliptic curve only hash (ECOH) algorithm was submitted as a candidate for SHA-3 in the NIST hash function competition. However, it was rejected in the beginning of the competition since a second pre-image attack was found.\nThe ECOH is based on the MuHASH hash algorithm, that has not yet been successfully attacked. However, MuHASH is too inefficient for practical use and changes had to be made. The main difference is that where MuHASH applies a random oracle, ECOH applies a padding function. Assuming random oracles, finding a collision in MuHASH implies solving the discrete logarithm problem. MuHASH is thus a provably secure hash, i.e. we know that finding a collision is at least as hard as some hard known mathematical problem.\nECOH does not use random oracles and its security is not strictly directly related to the discrete logarithm problem, yet it is still based on mathematical functions. ECOH is related to the Semaev's problem of finding low degree solutions to the summation polynomial equations over binary field, called the Summation Polynomial Problem. An efficient algorithm to solve this problem has not been given so far. Although the problem was not proven to be NP-hard, it is assumed that such an algorithm does not exist. Under certain assumptions, finding a collision in ECOH may be also viewed as an instance of the subset sum problem. Besides solving the Summation Polynomial Problem, there exists another way how to find second pre-images and thus collisions, Wagner's generalized birthday attack.\nECOH is a good example of hash function that is based on mathematical functions (with the provable security approach) rather than on classical ad hoc mixing of bits to obtain the hash.",
+    "aliases": [
+      "ECOH"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptographic hash function"
+    ],
+    "itemDescription": "obsolete cryptographic hash function"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5436992",
+    "itemLabel": "Fast Syndrome Based Hash",
+    "link": "https://en.wikipedia.org/wiki/Fast_syndrome-based_hash",
+    "text": "In cryptography, the fast syndrome-based hash functions (FSB) are a family of cryptographic hash functions introduced in 2003 by Daniel Augot, Matthieu Finiasz, and Nicolas Sendrier.\n\nUnlike most other  cryptographic hash functions in use today, FSB can to a certain extent be proven to be secure. More exactly, it can be proven that breaking FSB is at least as difficult as solving a certain NP-complete problem known as regular syndrome decoding so FSB is provably secure. Though it is not known whether NP-complete problems are solvable in polynomial time, it is often assumed that they are not.\nSeveral versions of FSB have been proposed, the latest of which was submitted to the SHA-3 cryptography competition but was rejected in the first round. Though all versions of FSB claim provable security, some preliminary versions were eventually broken. \n  \nThe design of the latest version of FSB has however taken this attack into account and remains secure to all currently known attacks.\nAs usual, provable security comes at a cost. FSB is slower than traditional hash functions and uses quite a lot of memory, which makes it impractical on memory constrained environments. Furthermore, the compression function used in FSB needs a large output size to guarantee security. This last problem has been solved in recent versions by simply compressing the output by another compression function called Whirlpool. However, though the authors argue that adding this last compression does not reduce security, it makes a formal security proof impossible.",
+    "aliases": [
+      "Fast Syndrome-based hash Functions",
+      "Fast syndrome-based hash",
+      "FSB"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptographic hash function"
+    ],
+    "itemDescription": "family of cryptographic hash functions"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5628959",
+    "itemLabel": "HAS-V",
+    "link": "https://en.wikipedia.org/wiki/HAS-V",
+    "text": "HAS-V is a cryptographic hash function with a variable output length. HAS-V is a hash function based on a block cipher. The hash function can produce hash values with lengths from 16 to 40 bytes.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptographic hash and stream cipher function"
+    ],
+    "itemDescription": "cryptographic hash function"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q675690",
+    "itemLabel": "HAVAL",
+    "link": "https://en.wikipedia.org/wiki/HAVAL",
+    "text": "HAVAL is a cryptographic hash function. Unlike MD5, but like most modern cryptographic hash functions, HAVAL can produce hashes of different lengths \u2013 128 bits, 160 bits, 192 bits, 224 bits, and 256 bits. HAVAL also allows users to specify the number of rounds (3, 4, or 5) to be used to generate the hash. HAVAL was broken in 2004.HAVAL was invented by Yuliang Zheng, Josef Pieprzyk, and Jennifer Seberry in 1992.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptographic hash function"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7280578",
+    "itemLabel": "RadioGat\u00fan",
+    "link": "https://en.wikipedia.org/wiki/RadioGat%C3%BAn",
+    "text": "",
+    "aliases": [
+      "RadioGatun"
+    ],
+    "superClasses": [],
+    "types": [
+      "parametrized function family",
+      "cryptographic hash and stream cipher function"
+    ],
+    "itemDescription": "cryptographic hash primitive"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7391081",
+    "itemLabel": "SMASH",
+    "link": "https://en.wikipedia.org/wiki/SMASH_(hash)",
+    "text": "SMASH is a cryptographic hash function which was created by Lars R. Knudsen.  SMASH comes in two versions: 256-bit and 512-bit. Each version was supposed to rival SHA-256 and SHA-512, respectively, however, shortly after the SMASH presentation at FSE 2005, an attack vector against SMASH was discovered which left the hash broken.\n\n",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptographic hash function"
+    ],
+    "itemDescription": "cryptographic hash function"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q741247",
+    "itemLabel": "MD2",
+    "link": "https://en.wikipedia.org/wiki/MD2_(hash_function)",
+    "text": "The MD2 Message-Digest Algorithm is a cryptographic hash function developed by Ronald Rivest in 1989. The algorithm is optimized for 8-bit computers. MD2 is specified in RFC 1319. Although MD2 is no longer considered secure, even as of  2014, it remains in use in public key infrastructures as part of certificates generated with MD2 and RSA. The \"MD\" in MD2 stands for \"Message Digest\".",
+    "aliases": [
+      "Message-Digest Algorithm 2",
+      "Merkle\u2013Damg\u00e5rd Message-Digest Algorithm",
+      "MD2_(cryptography)",
+      "MD2 Message-Digest Algorithm"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptographic hash function"
+    ],
+    "itemDescription": "obsolete cryptographic hash function"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7888922",
+    "itemLabel": "RIPEMD-256",
+    "aliases": [
+      "RACE Integrity Primitives Evaluation Message Digest"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptographic hash function"
+    ],
+    "itemDescription": "cryptographic hash function"
+  }
+]

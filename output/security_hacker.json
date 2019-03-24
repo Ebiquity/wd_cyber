@@ -1,0 +1,62 @@
+[
+  {
+    "item": "http://www.wikidata.org/entity/Q1332289",
+    "itemLabel": "black hat",
+    "itemDescription": "computer hacker with malicious intent",
+    "link": "https://en.wikipedia.org/wiki/Black_hat",
+    "text": "A black hat hacker (or black-hat hacker) is a hacker who \"violates computer security for little reason beyond maliciousness or for personal gain\".",
+    "aliases": [
+      "blackhat"
+    ],
+    "superClasses": [
+      "security hacker"
+    ],
+    "types": [
+      "profession"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q16873050",
+    "itemLabel": "Lauri Love",
+    "itemDescription": "Finnish-British activist charged extraterritorially with stealing data from United States Government computers",
+    "link": "https://en.wikipedia.org/wiki/Lauri_Love",
+    "text": "Lauri Love (; born 14 December 1984, United Kingdom) is a British activist charged with stealing data from United States Government computers including the United States Army, Missile Defense Agency, and NASA via computer intrusion.",
+    "aliases": [
+      "Lauri Alexander Love"
+    ],
+    "superClasses": [],
+    "types": [
+      "security hacker",
+      "human"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q18922761",
+    "itemLabel": "white hat",
+    "itemDescription": "computer hacker who hacks ethically",
+    "link": "https://en.wikipedia.org/wiki/White_hat_(computer_security)",
+    "text": "The term \"white hat\" in Internet slang refers to an ethical computer hacker, or a computer security expert, who specializes in penetration testing and in other testing methodologies that ensures the security of an organization's information systems. Ethical hacking is a term meant to imply a broader category than just penetration testing. Contrasted with black hat, a malicious hacker, the name comes from Western films, where  heroic and antagonistic cowboys might traditionally wear a white and a black hat respectively. While a white hat hacker hacks under good intentions with permission, and a black hat hacker has malicious intent, there is a third kind known as a grey hat hacker who hacks with good intentions without permission.White hat hackers may also work in teams called \"sneakers\", red teams, or tiger teams.",
+    "aliases": [
+      "white hat hacker",
+      "ethical hacker"
+    ],
+    "superClasses": [
+      "security hacker"
+    ],
+    "types": [
+      "profession"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q869052",
+    "itemLabel": "Script kiddie",
+    "itemDescription": "pejorative term for an unskilled hacker who uses scripts instead of coding on his own",
+    "link": "https://en.wikipedia.org/wiki/Script_kiddie",
+    "text": "In programming and hacking culture, a script kiddie, skiddie, or skid is an unskilled individual who uses scripts or programs developed by others to attack computer systems and networks and deface websites. It is generally assumed that most script kiddies are juveniles who lack the ability to write sophisticated programs or exploits on their own and that their objective is to try to impress their friends or gain credit in computer-enthusiast communities. However, the term does not relate to the actual age of the participant. The term is considered to be somewhat derogatory.",
+    "aliases": [],
+    "superClasses": [
+      "security hacker"
+    ],
+    "types": []
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "item": "http://www.wikidata.org/entity/Q23702848",
+    "itemLabel": "Panama Papers",
+    "itemDescription": "release of 11.5 million documents created by the Panamanian corporate service provider Mossack Fonseca",
+    "link": "https://en.wikipedia.org/wiki/Panama_Papers",
+    "text": "The Panama Papers are 11.5 million leaked documents that detail financial and attorney\u2013client information for more than 214,488 offshore entities. The documents, some dating back to the 1970s, were created by, and taken from, Panamanian law firm and corporate service provider Mossack Fonseca, and were leaked in 2015 by an anonymous source.The documents contain personal financial information about wealthy individuals and public officials that had previously been kept private. While offshore business entities are legal (see Offshore Magic Circle), reporters found that some of the Mossack Fonseca shell corporations were used for illegal purposes, including fraud, tax evasion, and evading international sanctions.\"John Doe\", the whistleblower who leaked the documents to German journalist Bastian Obermayer from the newspaper S\u00fcddeutsche Zeitung (SZ), remains anonymous, even to the journalists who worked on the investigation. \"My life is in danger\", he told them. In a May 6, 2016, statement, John Doe cited income inequality as the reason for his action, and said he leaked the documents \"simply because I understood enough about their contents to realize the scale of the injustices they described\". He added that he had never worked for any government or intelligence agency and expressed willingness to help prosecutors if granted immunity from prosecution. After SZ verified that the statement did in fact come from the source for the Panama Papers, the International Consortium of Investigative Journalists (ICIJ) posted the full document on its website.SZ asked the ICIJ for help because of the amount of data involved. Journalists from 107 media organizations in 80 countries analyzed documents detailing the operations of the law firm. After more than a year of analysis, the first news stories were published on April 3, 2016, along with 150 of the documents themselves. The project represents an important milestone in the use of data journalism software tools and mobile collaboration.\nThe documents were dubbed the Panama Papers because of the country they were leaked from; however, the Panamanian government expressed strong objections to the name over concerns that it would tarnish the government's and country's image worldwide, as did other entities in Panama and elsewhere. This led to an advertising campaign some weeks after the leak, titled \"Panama, more than papers\". Some media outlets covering the story have used the name \"Mossack Fonseca papers\".",
+    "aliases": [
+      "The Panama Papers",
+      "Panama Papers leak",
+      "Panama papers",
+      "Panama Paper",
+      "Panama leaks",
+      "Mossack Fonseca papers"
+    ],
+    "superClasses": [],
+    "types": [
+      "data theft",
+      "data journalism",
+      "information leak",
+      "data set",
+      "scandal"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q42722842",
+    "itemLabel": "Paradise Papers",
+    "itemDescription": "documents leak related to offshore investment",
+    "link": "https://en.wikipedia.org/wiki/Paradise_Papers",
+    "text": "The Paradise Papers are a set of 13.4 million confidential electronic documents relating to offshore investments that were leaked to the German reporters Frederik Obermaier and Bastian Obermayer from the newspaper S\u00fcddeutsche Zeitung. The newspaper shared them with the International Consortium of Investigative Journalists, and a network of more than 380 journalists. Some of the details were made public on 5 November 2017 and stories are still being released.\nThe documents originate from legal firm Appleby, the corporate services providers Estera and Asiaciti Trust, and business registries in 19 tax jurisdictions. They contain the names of more than 120,000 people and companies. Among those whose financial affairs are mentioned are, separately, AIG, Prince Charles and Queen Elizabeth II, President of Colombia Juan Manuel Santos, and U.S. Secretary of Commerce Wilbur Ross. At 1.4 terabytes in size, this is second only to the Panama Papers of 2016 as the biggest data leak in history.",
+    "aliases": [
+      "The Paradise Papers"
+    ],
+    "superClasses": [],
+    "types": [
+      "data theft",
+      "data journalism",
+      "information leak",
+      "data set",
+      "scandal"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q56722721",
+    "itemLabel": "Data exfiltration",
+    "itemDescription": "unauthorized data transfer from a computer",
+    "link": "https://en.wikipedia.org/wiki/Data_exfiltration",
+    "text": "Data exfiltration occurs when malware and/or a malicious actor carries out an unauthorized data transfer from a computer. It is also commonly called data extrusion or data exportation. Data exfiltration is also considered a form of data theft. During the past couple decades, a number of data exfiltration efforts severely damaged the consumer confidence, corporate valuation, and intellectual property of businesses and national security of governments across the world.",
+    "aliases": [],
+    "superClasses": [
+      "data theft"
+    ],
+    "types": []
+  }
+]

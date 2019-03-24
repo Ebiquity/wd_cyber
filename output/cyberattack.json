@@ -1,0 +1,977 @@
+[
+  {
+    "item": "http://www.wikidata.org/entity/Q10854355",
+    "itemLabel": "2010 Japan\u2013South Korea cyberwarfare",
+    "link": "https://en.wikipedia.org/wiki/2010_Japan%E2%80%93South_Korea_cyberwarfare",
+    "text": "",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "distributed denial-of-service attack"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q11081100",
+    "itemLabel": "spoofing attack",
+    "link": "https://en.wikipedia.org/wiki/Spoofing_attack",
+    "text": "In the context of information security, and especially network security, a spoofing attack is a situation in which a person or program successfully masquerades as another by falsifying data, to gain an illegitimate advantage.",
+    "aliases": [],
+    "superClasses": [
+      "cyberattack"
+    ],
+    "types": [],
+    "itemDescription": "cyber attack in which a person or program successfully masquerades as another by falsifying data"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1259334",
+    "itemLabel": "Drive-by Pharming",
+    "aliases": [],
+    "superClasses": [
+      "phishing"
+    ],
+    "types": [],
+    "itemDescription": "router exploitation in a vehicle"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q131406",
+    "itemLabel": "denial-of-service attack",
+    "link": "https://en.wikipedia.org/wiki/Denial-of-service_attack",
+    "text": "A denial-of-service (DoS) is any type of attack where the attackers attempt to prevent legitimate users from accessing the service or network. In the DoS, the attackers usually send several messages asking the server to accepts requests from invalid return addresses. This can be done in several ways. This attack included but not limited to: \n-         Flooding the network \n-         Disrupting communication between machines or preventing access to a service\n-         Preventing individual from accessing a service.\n\nA person victim of DoS does not typically result in the theft or loss of important information, they cost the victim a great deal of time and money to handle.\n\nIn computing, a denial-of-service attack (DoS attack) is a cyber-attack in which the perpetrator seeks to make a machine or network resource unavailable to its intended users by temporarily or indefinitely disrupting services of a host connected to the Internet. Denial of service is typically accomplished by flooding the targeted machine or resource with superfluous requests in an attempt to overload systems and prevent some or all legitimate requests from being fulfilled.In a distributed denial-of-service attack (DDoS attack), the incoming traffic flooding the victim originates from many different sources. This effectively makes it impossible to stop the attack simply by blocking a single source.\nA DoS or DDoS attack is analogous to a group of people crowding the entry door of a shop, making it hard for legitimate customers to enter, disrupting trade.\nCriminal perpetrators of DoS attacks often target sites or services hosted on high-profile web servers such as banks or credit card payment gateways. Revenge, blackmail and activism can motivate these attacks.",
+    "aliases": [
+      "DoS",
+      "Denial of Service"
+    ],
+    "superClasses": [
+      "cyberattack"
+    ],
+    "types": [],
+    "itemDescription": "cyber attack"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q13427559",
+    "itemLabel": "return-to-libc attack",
+    "link": "https://en.wikipedia.org/wiki/Return-to-libc_attack",
+    "text": "A \"return-to-libc\" attack is a computer security attack usually starting with a buffer overflow in which a subroutine return address on a call stack is replaced by an address of a subroutine that is already present in the process\u2019 executable memory, bypassing the no-execute bit feature (if present) and ridding the attacker of the need to inject their own code. The first example of this attack in the wild was contributed by Alexander Peslyak on the Bugtraq mailing list in 1997.On POSIX-compliant operating systems the C standard library (\"libc\") is commonly used to provide a standard runtime environment for programs written in the C programming language. Although the attacker could make the code return anywhere, libc is the most likely target, as it is almost always linked to the program, and it provides useful calls for an attacker (such as the system function used to execute shell commands).",
+    "aliases": [
+      "Ret2libc"
+    ],
+    "superClasses": [
+      "cyberattack"
+    ],
+    "types": [],
+    "itemDescription": "computer security attack in which a subroutine return address on a call stack is replaced by an address of a subroutine already present in executable memory, bypassing the no-execute bit"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q135005",
+    "itemLabel": "phishing",
+    "link": "https://en.wikipedia.org/wiki/Phishing",
+    "text": "Phishing is the fraudulent attempt to obtain sensitive information such as usernames, passwords and credit card details by disguising as a trustworthy entity in an electronic communication. Typically carried out by email spoofing or instant messaging, it often directs users to enter personal information at a fake website, the look and feel of which are identical to the legitimate site.Phishing is an example of social engineering techniques being used to deceive users. Users are often lured by communications purporting to be from trusted parties such as social web sites, auction sites, banks, online payment processors or IT administrators.Attempts to deal with phishing incidents include legislation, user training, public awareness, and technical security measures \u2014 because phishing attacks also often exploit weaknesses in current web security.The word itself is a neologism created as a homophone of fishing, due to the similarity of using a bait in an attempt to catch a victim.",
+    "aliases": [],
+    "superClasses": [
+      "cyberattack"
+    ],
+    "types": [],
+    "itemDescription": "act of attempting to acquire (sensitive) information by posing as a trustworthy entity"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1441525",
+    "itemLabel": "email spoofing",
+    "link": "https://en.wikipedia.org/wiki/Email_spoofing",
+    "text": "Email spoofing is the creation of email messages with a forged sender address.\nBecause the core email protocols do not have any mechanism for authentication,  it is common for spam and phishing emails to use such spoofing to mislead or even prank the recipient about the origin of the message.",
+    "aliases": [],
+    "superClasses": [
+      "spoofing attack"
+    ],
+    "types": [],
+    "itemDescription": "creating an email messages with a forged sender address"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1501923",
+    "itemLabel": "penetration test",
+    "link": "https://en.wikipedia.org/wiki/Penetration_test",
+    "text": "A penetration test, colloquially known as a pen test, is an authorized simulated cyber attack on a computer system, performed to evaluate the security of the system. The test is performed to identify both weaknesses (also referred to as vulnerabilities), including the potential for unauthorized parties to gain access to the system's features and data, as well as strengths, enabling a full risk assessment to be completed.\nThe process typically identifies the target systems and a particular goal, then reviews available information and undertakes various means to attain that goal. A penetration test target may be a white box (which provides background and system information) or black box (which provides only basic or no information except the company name). A gray box penetration test is a combination of the two (where limited knowledge of the target is shared with the auditor). A penetration test can help determine whether a system is vulnerable to attack if the defenses were sufficient, and which defenses (if any) the test defeated.Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization and suggest countermeasures to reduce risk.The National Cyber Security Center, describes penetration testing as the following: \"A method for gaining assurance in the security of an IT system by attempting to breach some or all of that system's security, using the same tools and techniques as an adversary might.\" The goals of a penetration test vary depending on the type of approved activity for any given engagement with the primary goal focused on finding vulnerabilities that could be exploited by a nefarious actor and informing the client of those vulnerabilities along with recommended mitigation strategies.Penetration tests are a component of a full security audit. For example, the Payment Card Industry Data Security Standard requires penetration testing on a regular schedule, and after system changes.Flaw hypothesis methodology is a systems analysis and penetration prediction technique where a list of hypothesized flaws in a software system are compiled through analysis of the specifications and documentation for the system. The list of hypothesized flaws is then prioritized on the basis of the estimated probability that a flaw actually exists, and on the ease of exploiting it to the extent of control or compromise. The prioritized list is used to direct the actual testing of the system.\n\n",
+    "aliases": [
+      "pentest",
+      "pen test",
+      "ethical hack"
+    ],
+    "superClasses": [],
+    "types": [
+      "cyberattack"
+    ],
+    "itemDescription": "method of evaluating computer and network security by simulating an attack"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1584046",
+    "itemLabel": "Cold boot attack",
+    "link": "https://en.wikipedia.org/wiki/Cold_boot_attack",
+    "text": "In computer security, a cold boot attack (or to a lesser extent, a platform reset attack) is a type of side channel attack in which an attacker with physical access to a computer performs a memory dump of a computer's random access memory by performing a hard reset of the target machine. Typically, cold boot attacks are used to retrieve encryption keys from a running operating system for malicious or criminal investigative reasons. The attack relies on the data remanence property of DRAM and SRAM to retrieve memory contents that remain readable in the seconds to minutes after power has been removed.An attacker with physical access to a running computer typically executes a cold boot attack by cold-booting the machine and booting a lightweight operating system from a removable disk to dump the contents of pre-boot physical memory to a file. An attacker is then free to analyze the data dumped from memory to find sensitive data, such as the keys, using various forms of key finding attacks. Since cold boot attacks target random access memory, full disk encryption schemes, even with a trusted platform module installed are ineffective against this kind of attack. This is because the problem is fundamentally a hardware (insecure memory) and not a software issue. However, malicious access can be prevented by limiting physical access and using modern techniques to avoid storing sensitive data in random access memory.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "side channel attack"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q17329819",
+    "itemLabel": "distributed denial-of-service attack",
+    "aliases": [
+      "Distributed Denial of Service",
+      "DDoS"
+    ],
+    "superClasses": [
+      "denial-of-service attack"
+    ],
+    "types": [],
+    "itemDescription": "cyber attack"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1756025",
+    "itemLabel": "replay attack",
+    "link": "https://en.wikipedia.org/wiki/Replay_attack",
+    "text": "A replay attack (also known as playback attack) is a form of network attack in which a valid data transmission is maliciously or fraudulently repeated or delayed. This is carried out either by the originator or by an adversary who intercepts the data and re-transmits it, possibly as part of a masquerade attack by IP packet substitution. This is one of the lower tier versions of a \"Man-in-the-middle attack\".\nAnother way of describing such an attack is:\n\"an attack on a security protocol using replay of messages from a different context into the intended (or original and expected) context, thereby fooling the honest participant(s) into thinking they have successfully completed the protocol run.\"",
+    "aliases": [
+      "playback attack"
+    ],
+    "superClasses": [
+      "cyberattack"
+    ],
+    "types": [],
+    "itemDescription": "network attack in which a valid data transmission is maliciously or fraudulently repeated or delayed, carried out either by the originator or by an adversary who intercepts the data and retransmits it"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q17781913",
+    "itemLabel": "2014 celebrity pictures hack",
+    "link": "https://en.wikipedia.org/wiki/ICloud_leaks_of_celebrity_photos",
+    "text": "On August 31, 2014, a collection of almost 500 private pictures of various celebrities, mostly women, and with many containing nudity, were posted on the imageboard 4chan, and later disseminated by other users on websites and social networks such as Imgur and Reddit. The images were initially believed to have been obtained via a breach of Apple's cloud services suite iCloud, or a security issue in the iCloud API which allowed them to make unlimited attempts at guessing victims' passwords. However, access was later revealed to have been gained via spear phishing attacks.The event, which media outlets and Internet users referred to under names such as \"The Fappening\" (a portmanteau of the words \"fap\"\u2014a slang term for masturbation\u2014and the film The Happening) and \"Celebgate\", was met with a varied reaction from the media and fellow celebrities. Critics felt that the distribution of the images was a major invasion of privacy for their subjects, while some of the allegedly depicted subjects questioned their authenticity. The leak also prompted increased concern from analysts surrounding the privacy and security of cloud computing services such as iCloud\u2014with a particular emphasis on their use to store sensitive, private information.\n\n",
+    "aliases": [
+      "Celebgate",
+      "The Fappening"
+    ],
+    "superClasses": [],
+    "types": [
+      "cyberattack"
+    ],
+    "itemDescription": "August 2014 computer security incident which led to the leaking of celebrity photographs"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q18642279",
+    "itemLabel": "Sony Pictures hack",
+    "link": "https://en.wikipedia.org/wiki/Sony_Pictures_hack",
+    "text": "On November 24, 2014, a hacker group which identified itself by the name \"Guardians of Peace\" (GOP) leaked a release of confidential data from the film studio Sony Pictures. The data included personal information about Sony Pictures employees and their families, e-mails between employees, information about executive salaries at the company, copies of then-unreleased Sony films, and other information. The perpetrators then employed a variant of the Shamoon wiper malware to erase Sony's computer infrastructure.In November 2014, the GOP group demanded that Sony withdraw its film The Interview, a comedy about a plot to assassinate North Korean leader Kim Jong-un, and threatened terrorist attacks at cinemas screening the film. After major U.S. cinema chains opted not to screen the film in response to these threats, Sony elected to cancel the film's formal premiere and mainstream release, opting to skip directly to a downloadable digital release followed by a limited digital theatrical release the next day.United States intelligence officials, after evaluating the software, techniques, and network sources used in the hack, alleged that the attack was sponsored by North Korea. North Korea has denied all responsibility.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cyberattack"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q1919060",
+    "itemLabel": "reflection attack",
+    "link": "https://en.wikipedia.org/wiki/Reflection_attack",
+    "text": "In computer security, a reflection attack is a method of attacking a challenge-response authentication system that uses the same protocol in both directions.  That is, the same challenge-response protocol is used by each side to authenticate the other side. The essential idea of the attack is to trick the target into providing the answer to its own challenge.",
+    "aliases": [],
+    "superClasses": [
+      "cryptographic attack"
+    ],
+    "types": [],
+    "itemDescription": "method of attacking a challenge-response authentication system that uses the same protocol in both directions"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q19792634",
+    "itemLabel": "Q19792634",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cyberattack"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q19845322",
+    "itemLabel": "cryptographic attack",
+    "aliases": [
+      "uncypher",
+      "collision generation",
+      "decoding"
+    ],
+    "superClasses": [
+      "cyberattack"
+    ],
+    "types": [],
+    "itemDescription": "attack aimed at circumventing the security of a cryptographic system"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q20047262",
+    "itemLabel": "Office of Personnel Management data breach",
+    "link": "https://en.wikipedia.org/wiki/Office_of_Personnel_Management_data_breach",
+    "text": "In June 2015, the United States Office of Personnel Management (OPM) announced that it had been the target of a data breach targeting the records of as many as four million people. The final estimate of the number of stolen records is approximately 21.5 million. This includes records of people who had undergone background checks, but who were not necessarily current or former government employees. It has been described by federal officials as among the largest breaches of government data in the history of the United States. Information targeted in the breach included personally identifiable information such as Social Security numbers, as well as names, dates and places of birth, and addresses.The data breach consisted of two separate, but linked, attacks. It is unclear when the first attack occurred but the second attack happened on May 7, 2014 when attackers posed as an employee of KeyPoint Government Solutions, a subcontracting company. The first attack was discovered March 20, 2014, but the second attack was not discovered until April 15, 2015.In the aftermath of the event, Katherine Archuleta, the director of OPM, and the CIO, Donna Seymour, resigned.On August 27, 2017, the FBI arrested a Chinese national suspected of helping to create the malware used in the breach.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cyberattack",
+      "data breach"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q20312412",
+    "itemLabel": "Bar mitzvah attack",
+    "link": "https://en.wikipedia.org/wiki/Bar_mitzvah_attack",
+    "text": "The bar mitzvah attack is an attack on the SSL/TLS protocols that exploits the use of the RC4 cipher with weak keys for that cipher. While this affects only the first hundred or so bytes of only the very small fraction of connections that happen to use weak keys, it allows significant compromise of user security, for example by allowing the interception of password information which could then be used for long-term exploitation.\nThe attack uses a vulnerability in RC4 described as the invariance weakness by Fluhrer et al. in their 2001 paper on RC4 weaknesses.The attack is named after the bar mitzvah ceremony which is held at 13 years of age, because the vulnerability exploited is 13 years old and likely inspired by the naming of the unrelated birthday attack.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptographic attack"
+    ],
+    "itemDescription": "attack on the SSL/TLS protocols that exploits the use of the RC4 cipher with weak keys for that cipher"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q20707942",
+    "itemLabel": "Downgrade attack",
+    "link": "https://en.wikipedia.org/wiki/Downgrade_attack",
+    "text": "A downgrade attack is a form of cryptographic attack on a computer system or communications protocol that makes it abandon a high-quality mode of operation (e.g. an encrypted connection) in favor of an older, lower-quality mode of operation (e.g. cleartext) that is typically provided for backward compatibility with older systems. An example of such a flaw was found in OpenSSL that allowed the attacker to negotiate the use of a lower version of TLS between the client and server. This is one of the most common types of downgrade attacks. Another example is intercepting web traffic and redirecting the user from the secure, HTTPS version of a website to an unencrypted HTTP version.\nDowngrade attacks are often implemented as part of a man-in-the-middle attack, and may be used as a way of enabling a cryptographic attack that might not be possible otherwise.  Downgrade attacks have been a consistent problem with the SSL/TLS family of protocols; examples of such attacks include the POODLE attack. \nDowngrade attacks in the TLS protocol take many forms. Researchers have classified downgrade attacks with respect to four different vectors, which represents a framework to reason about downgrade attacks as follows: \n\nThere are some recent proposals that exploit the concept of prior knowledge to enable TLS clients (e.g. web browsers) to protect sensitive domain names against certain types of downgrade attacks that exploit the clients' support for legacy versions or non-recommended ciphersuites (e.g. those that do not support forward secrecy or authenticated encryption) such as the POODLE, ClientHello fragmentation, and a variant of the DROWN (aka \"the special drown\") downgrade attacks.\nRemoving backward compatibility is often the only way to prevent downgrade attacks. However, sometimes the client and server can recognize each other as up-to-date in a manner that prevents them. For example, if a Web server and user agent both implement HTTP Strict Transport Security and the user agent knows this of the server (either by having previously accessed it over HTTPS, or because it is on an \"HSTS preload list\"), then the user agent will refuse to access the site over vanilla HTTP, even if a malicious router represents it and the server to each other as not being HTTPS-capable.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cyberattack",
+      "cryptographic attack"
+    ],
+    "itemDescription": "cryptographic attack that forces the use of weaker or no encryption"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q209403",
+    "itemLabel": "ping of death",
+    "link": "https://en.wikipedia.org/wiki/Ping_of_death",
+    "text": "A ping of death is a type of attack on a computer system that involves sending a malformed or otherwise malicious ping to a computer. \nA correctly-formed ping packet is typically 56 bytes in size, or 64 bytes when the Internet Protocol header is considered. However, any IPv4 packet (including pings) may be as large as 65,535 bytes. Some computer systems were never designed to properly handle a ping packet larger than the maximum packet size because it violates the Internet Protocol documented in RFC 791. Like other large but well-formed packets, a ping of death is fragmented into groups of 8 octets before transmission. However, when the target computer reassembles the malformed packet, a buffer overflow can occur, causing a system crash and potentially allowing the injection of malicious code.\nIn early implementations of TCP/IP, this bug is easy to exploit and can affect a wide variety of systems including Unix, Linux, Mac, Windows, and peripheral devices. As systems began filtering out pings of death through firewalls and other detection methods, a different kind of ping attack known as ping flooding later appeared, which floods the victim with so many ping requests that normal traffic fails to reach the system (a basic denial-of-service attack).",
+    "aliases": [],
+    "superClasses": [
+      "cyberattack"
+    ],
+    "types": [],
+    "itemDescription": "attack on a computer system that involves sending a malformed or otherwise malicious ping to a computer"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q22124257",
+    "itemLabel": "Japan Pension Service data leak",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cyberattack"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2267081",
+    "itemLabel": "side channel attack",
+    "link": "https://en.wikipedia.org/wiki/Side-channel_attack",
+    "text": "In computer security, a side-channel attack is any attack based on information gained from the  implementation of a computer system, rather than weaknesses in the implemented algorithm itself (e.g. cryptanalysis and software bugs). Timing information, power consumption, electromagnetic leaks or even sound can provide an extra source of information, which can be exploited. \nSome side-channel attacks require technical knowledge of the internal operation of the system, although others such as differential power analysis are effective as black-box attacks. The rise of Web 2.0 applications and software-as-a-service has also significantly raised the possibility of side-channel attacks on the web, even when transmissions between a web browser and server are encrypted (e.g., through HTTPS or WiFi encryption),  according to researchers from Microsoft Research and Indiana University. Many powerful side-channel attacks are based on statistical methods pioneered by Paul Kocher.Attempts to break a cryptosystem by deceiving or coercing people with legitimate access are not typically considered side-channel attacks: see social engineering and rubber-hose cryptanalysis.",
+    "aliases": [],
+    "superClasses": [
+      "cyberattack",
+      "cryptographic attack"
+    ],
+    "types": []
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2274569",
+    "itemLabel": "session poisoning",
+    "link": "https://en.wikipedia.org/wiki/Session_poisoning",
+    "text": "Session poisoning (also referred to as \"session data pollution\" and \"session modification\") is a method to exploit insufficient input validation within a server application. Typically a server application that is vulnerable to this type of exploit will copy user input into session variables.\nThe underlying vulnerability is a state management problem: shared state, race condition, ambiguity in use or plain unprotected modifications of state values.\nSession poisoning has been demonstrated in server environments where different, non-malicious applications (scripts) share the same session states but where usage differ, causing ambiguity and race conditions.\nSession poisoning has been demonstrated in scenarios where attacker is able to introduce malicious scripts into the server environment, which is possible if attacker and victim share a web host.\n\n",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cyberattack"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2274575",
+    "itemLabel": "session fixation",
+    "link": "https://en.wikipedia.org/wiki/Session_fixation",
+    "text": "In computer network security, session fixation attacks attempt to exploit the vulnerability of a system that allows one person to fixate (find or set) another person's session identifier.  Most session fixation attacks are web based, and most rely on session identifiers being accepted from URLs (query string) or POST data.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cyberattack"
+    ],
+    "itemDescription": "cyberattack allowing one person to fixate (find/set) another person\u2019s session identifier, typically relying on session identifiers being accepted from URL query string or POST data"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q23048209",
+    "itemLabel": "Bangladesh Bank heist",
+    "link": "https://en.wikipedia.org/wiki/Bangladesh_Bank_robbery",
+    "text": "The Bangladesh Bank robbery, also known colloquially as the Bangladesh Bank cyber heist, took place in February 2016, when thirty-five fraudulent instructions were issued by security hackers via the SWIFT network to withdraw close to US$1 billion from the Federal Reserve Bank of New York account belonging to Bangladesh Bank, the central bank of Bangladesh. Five of the thirty-five instructions were successful in transferring $101 million, with $20 million traced to Sri Lanka and $81 million to the Philippines. The Federal Reserve Bank of New York blocked the remaining thirty transactions, amounting to $850 million, due to suspicions raised by a misspelled instruction. All the money transferred to Sri Lanka has since been recovered. However, as of 2018 only around $18 million of the $81 million transferred to the Philippines has been recovered. It was later suspected that Dridex malware was used for the attack.A Reuters report attributed the robbery to oversights and failures by Bangladesh Bank, the Federal Reserve Bank of New York, as well as the Rizal Commercial Banking Corporation (RCBC) in the Philippines.",
+    "aliases": [
+      "2016 Philippine casino money laundering case"
+    ],
+    "superClasses": [],
+    "types": [
+      "theft",
+      "2015\u201316 SWIFT banking hack"
+    ],
+    "itemDescription": "heist via the SWIFT network from  a Bangladesh Bank account at the Federal Reserve Bank of New York"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2398787",
+    "itemLabel": "hack of DigiNotar",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "man-in-the-middle attack"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2420767",
+    "itemLabel": "Chosen-ciphertext attack",
+    "link": "https://en.wikipedia.org/wiki/Chosen-ciphertext_attack",
+    "text": "A chosen-ciphertext attack (CCA) is an attack model for cryptanalysis where the cryptanalyst can gather information by obtaining the decryptions of chosen ciphertexts. From these pieces of information the adversary can attempt to recover the hidden secret key used for decryption.\nFor formal definitions of security against chosen-ciphertext attacks, see for example:  Michael Luby and Mihir Bellare et al.",
+    "aliases": [
+      "CCA"
+    ],
+    "superClasses": [
+      "cryptographic attack"
+    ],
+    "types": []
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2467763",
+    "itemLabel": "Spoofed URL",
+    "link": "https://en.wikipedia.org/wiki/Spoofed_URL",
+    "text": "A spoofed URL describes one website that poses as another website. It sometimes applies a mechanism that exploits bugs in web browser technology, allowing a malicious computer attack. Such attacks are most effective against computers that lack recent security patches. Others are designed for the purpose of a parody.\nDuring such an attack, a computer user innocently visits a web site and sees a familiar URL in the address bar such as http://www.wikipedia.org but is, in reality, sending information to an entirely different location that would typically be monitored by an information thief. When sensitive information is requested by a fraudulent website, it is called phishing.\nThe user is typically enticed to the false website from an email or a hyperlink from another website.\nIn another variation, a website may look like the original, but is in fact a parody of it. These are mostly harmless, and are more noticeably different from the original, as they usually do not exploit bugs in web browser technology.\nThis can also take place in a hosts file. It can redirect a site(s) to another IP, which could be a spoofed website.",
+    "aliases": [],
+    "superClasses": [
+      "spoofing attack"
+    ],
+    "types": [],
+    "itemDescription": "website that poses as another website"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q24910170",
+    "itemLabel": "2015\u201316 SWIFT banking hack",
+    "link": "https://en.wikipedia.org/wiki/2015%E2%80%932016_SWIFT_banking_hack",
+    "text": "",
+    "aliases": [],
+    "superClasses": [
+      "cyberattack"
+    ],
+    "types": []
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q25440050",
+    "itemLabel": "December 2015 Ukraine power grid cyber attack",
+    "link": "https://en.wikipedia.org/wiki/December_2015_Ukraine_power_grid_cyberattack",
+    "text": "The December 2015 Ukraine power grid cyberattack took place on 23 December 2015 and is considered to be the first known successful cyberattack on a power grid. Hackers were able to successfully compromise information systems of three energy distribution companies in Ukraine and temporarily disrupt electricity supply to the end consumers.\nMost affected were consumers of \u00abPrykarpattyaoblenergo\u00bb (Ukrainian: \u041f\u0440\u0438\u043a\u0430\u0440\u043f\u0430\u0442\u0442\u044f\u043e\u0431\u043b\u0435\u043d\u0435\u0440\u0433\u043e; servicing Ivano-Frankivsk Oblast): 30 substations were switched off, and about 230 thousand people were left without electricity for a period from 1 to 6 hours.At the same time consumers of two other energy distribution companies, \u00abChernivtsioblenergo\u00bb (Ukrainian: \u0427\u0435\u0440\u043d\u0456\u0432\u0446\u0456\u043e\u0431\u043b\u0435\u043d\u0435\u0440\u0433\u043e; servicing Chernivtsi Oblast) and \u00abKyivoblenergo\u00bb (Ukrainian: \u041a\u0438\u0457\u0432\u043e\u0431\u043b\u0435\u043d\u0435\u0440\u0433\u043e; servicing Kyiv Oblast) were also affected by a cyberattack, but at a smaller scale. According to representatives of one of the companies, attacks were conducted from computers with IP addresses allocated to the Russian Federation.\n\n",
+    "aliases": [
+      "Prykarpattyaoblenergo cyber attack"
+    ],
+    "superClasses": [],
+    "types": [
+      "cyberattack"
+    ],
+    "itemDescription": "first registered successful hacking attack on power grid"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2552011",
+    "itemLabel": "Watermarking attack",
+    "link": "https://en.wikipedia.org/wiki/Watermarking_attack",
+    "text": "In cryptography, a watermarking attack is an attack on disk encryption methods where the presence of a specially crafted piece of data can be detected by an attacker without knowing the encryption key.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptographic attack"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q25617953",
+    "itemLabel": "Q25617953",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cyberattack"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q26036932",
+    "itemLabel": "Democratic National Committee cyber attacks",
+    "link": "https://en.wikipedia.org/wiki/Democratic_National_Committee_cyber_attacks",
+    "text": "The Democratic National Committee cyber attacks took place in 2015 and 2016, in which computer hackers infiltrated the Democratic National Committee (DNC) computer network, leading to a data breach. Some cybersecurity experts, as well as the U.S. government, stated that the cyberespionage was the work of Russian intelligence agencies.\nForensic evidence analyzed by several cybersecurity firms, CrowdStrike, Fidelis, and Mandiant (or FireEye), strongly indicates that two Russian intelligence agencies infiltrated the DNC computer systems. The American cybersecurity firm CrowdStrike, which removed the hacking programs, revealed a history of encounters with both groups and had already named them, calling one of  them Cozy Bear and the other Fancy Bear, names which are used in the media.On December 9, 2016, the CIA told U.S. legislators the U.S. Intelligence Community concluded Russia conducted the cyberattacks and other operations during the 2016 U.S. election to assist Donald Trump in winning the presidency. Multiple U.S. intelligence agencies concluded that specific individuals tied to the Russian government provided WikiLeaks with the stolen emails from the DNC, as well as stolen emails from Hillary Clinton's campaign chairman, who was also the target of a cyberattack. These intelligence organizations additionally concluded Russia hacked the Republican National Committee (R.N.C.) as well as the D.N.C., but chose not to leak information obtained from the R.N.C.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cyberattack",
+      "cyber spying"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2665075",
+    "itemLabel": "timing attack",
+    "link": "https://en.wikipedia.org/wiki/Timing_attack",
+    "text": "In cryptography, a timing attack is a side channel attack in which the attacker attempts to compromise a cryptosystem by analyzing the time taken to execute cryptographic algorithms. Every logical operation in a computer takes time to execute, and the time can differ based on the input; with precise measurements of the time for each operation, an attacker can work backwards to the input.Information can leak from a system through measurement of the time it takes to respond to certain queries. How much this information can help an attacker depends on many variables: crypto system design, the CPU running the system, the algorithms used, assorted implementation details, timing attack countermeasures, the accuracy of the timing measurements, etc.\nTiming attacks are often overlooked in the design phase because they are so dependent on the implementation and can be introduced inadvertently with compiler optimizations. Avoidance of timing attacks involves design of constant-time functions and careful testing of the final executable code.",
+    "aliases": [],
+    "superClasses": [
+      "side channel attack"
+    ],
+    "types": []
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2735168",
+    "itemLabel": "EFF DES cracker",
+    "link": "https://en.wikipedia.org/wiki/EFF_DES_cracker",
+    "text": "In cryptography, the EFF DES cracker (nicknamed \"Deep Crack\") is a machine built by the Electronic Frontier Foundation (EFF) in 1998, to perform a brute force search of the Data Encryption Standard (DES) cipher's key space \u2013 that is, to decrypt an encrypted message by trying every possible key. The aim in doing this was to prove that the key size of DES was not sufficient to be secure.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "one-of-a-kind computer",
+      "brute-force attack"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q27498044",
+    "itemLabel": "October 2016 Dyn cyberattack",
+    "link": "https://en.wikipedia.org/wiki/2016_Dyn_cyberattack",
+    "text": "The 2016 Dyn cyberattack was a series of distributed denial-of-service attacks (DDoS attacks) on October 21, 2016, targeting systems operated by Domain Name System (DNS) provider Dyn. The attack caused major Internet platforms and services to be unavailable to large swathes of users in Europe and North America. The groups Anonymous and New World Hackers claimed responsibility for the attack, but scant evidence was provided.As a DNS provider, Dyn provides to end-users the service of mapping an Internet domain name\u2014when, for instance, entered into a web browser\u2014to its corresponding IP address. The distributed denial-of-service (DDoS) attack was accomplished through a large number of DNS lookup requests from tens of millions of IP addresses. The activities are believed to have been executed through a botnet consisting of a large number of Internet-connected devices\u2014such as printers, IP cameras, residential gateways and baby monitors\u2014that had been infected with the Mirai malware.",
+    "aliases": [
+      "Dyn cyberattack"
+    ],
+    "superClasses": [],
+    "types": [
+      "distributed denial-of-service attack"
+    ],
+    "itemDescription": "large cyberattack that affected Europe and North America in 2016"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q27926807",
+    "itemLabel": "Q27926807",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cyberattack"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2869917",
+    "itemLabel": "Q2869917",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptographic attack"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2869918",
+    "itemLabel": "Q2869918",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptographic attack"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2900718",
+    "itemLabel": "packet drop attack",
+    "link": "https://en.wikipedia.org/wiki/Packet_drop_attack",
+    "text": "In computer networking, a packet drop attack or blackhole attack is a type of denial-of-service attack in which a router that is supposed to relay packets instead discards them. This usually occurs from a router becoming compromised from a number of different causes. One cause mentioned in research is through a denial-of-service attack on the router using a known DDoS tool.  Because packets are routinely dropped from a lossy network, the packet drop attack is very hard to detect and prevent.\nThe malicious router can also accomplish this attack selectively, e.g. by dropping packets for a particular network destination, at a certain time of the day, a packet every n packets or every t seconds, or a randomly selected portion of the packets. This is rather called a greyhound attack. If the malicious router attempts to drop all packets that come in, the attack can actually be discovered fairly quickly through common networking tools such as traceroute. Also, when other routers notice that the compromised router is dropping all traffic, they will generally begin to remove that router from their forwarding tables and eventually no traffic will flow to the attack.  However, if the malicious router begins dropping packets on a specific time period or over every n packets, it is often harder to detect because some traffic still flows across the network.The packet drop attack can be frequently deployed to attack wireless ad hoc networks. Because wireless networks have a much different architecture than that of a typical wired network, a host can broadcast that it has the shortest path towards a destination. By doing this, all traffic will be directed to the host that has been compromised, and the host is able to drop packets at will. Also over a mobile ad hoc network, hosts are specifically vulnerable to collaborative attacks where multiple hosts will become compromised and deceive the other hosts on the network.",
+    "aliases": [],
+    "superClasses": [
+      "denial-of-service attack"
+    ],
+    "types": [],
+    "itemDescription": "type of denial-of-service attack in which a compromised router deliberately discards packets"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q296847",
+    "itemLabel": "ARP spoofing",
+    "link": "https://en.wikipedia.org/wiki/ARP_spoofing",
+    "text": "In computer networking, ARP spoofing, ARP cache poisoning, or ARP poison routing, is a technique by which an attacker sends (spoofed) Address Resolution Protocol (ARP) messages onto a local area network. Generally, the aim is to associate the attacker's MAC address with the IP address of another host, such as the default gateway, causing any traffic meant for that IP address to be sent to the attacker instead.\nARP spoofing may allow an attacker to intercept data frames on a network, modify the traffic, or stop all traffic. Often the attack is used as an opening for other attacks, such as denial of service, man in the middle, or session hijacking attacks.The attack can only be used on networks that use ARP, and requires attacker have direct access to the local network segment to be attacked.",
+    "aliases": [
+      "ARP Spoofing",
+      "Arp spoofing",
+      "ARP Poisoning",
+      "ARP poisoning",
+      "Arp poisoning",
+      "ARP Poison Routing",
+      "ARP poison",
+      "Arp poison",
+      "ARP Flooding",
+      "ARP flooding",
+      "Arp Flooding",
+      "Arp flooding",
+      "ARP flood",
+      "ARP Cache Poisoning"
+    ],
+    "superClasses": [],
+    "types": [
+      "spoofing attack"
+    ],
+    "itemDescription": "cyberattack in which an attacker sends spoofed ARP messages onto a LAN to associate the attacker's MAC address with the IP address of another host (e.g. the default gateway), causing any traffic for that IP address to be sent to the attacker instead"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2981730",
+    "itemLabel": "Chosen-plaintext attack",
+    "link": "https://en.wikipedia.org/wiki/Chosen-plaintext_attack",
+    "text": "A chosen-plaintext attack (CPA) is an attack model for cryptanalysis which presumes that the attacker can obtain the ciphertexts for arbitrary plaintexts. The goal of the attack is to gain information that reduces the security of the encryption scheme.\nModern ciphers aim to provide semantic security, also known as ciphertext indistinguishability under chosen-plaintext attack, and are therefore by design generally immune to chosen-plaintext attacks if correctly implemented.",
+    "aliases": [],
+    "superClasses": [
+      "cryptographic attack"
+    ],
+    "types": [
+      "attack model"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q29957041",
+    "itemLabel": "WannaCry ransomware attack",
+    "link": "https://en.wikipedia.org/wiki/WannaCry_ransomware_attack",
+    "text": "The WannaCry ransomware attack was a May 2017 worldwide cyberattack by the WannaCry ransomware cryptoworm, which targeted computers running the Microsoft Windows operating system by encrypting data and demanding ransom payments in the Bitcoin cryptocurrency. It propagated through EternalBlue, an exploit developed by the US National Security Agency (NSA) for older Windows systems that was released by The Shadow Brokers a few months prior to the attack. While Microsoft had released patches previously to close the exploit, much of WannaCry's spread was from organizations that had not applied these, or were using older Windows systems that were past their end-of-life. WannaCry also took advantage of installing backdoors onto infected systems.\nThe attack was stopped within a few days of its discovery due to emergency patches released by Microsoft, and the discovery of a kill switch that prevented infected computers from spreading WannaCry further. The attack was estimated to have affected more than 200,000 computers across 150 countries, with total damages ranging from hundreds of millions to billions of dollars. Security experts believed from preliminary evaluation of the worm that the attack originated from North Korea or agencies working for the country.\nIn December 2017, the United States, United Kingdom and Australia formally asserted that North Korea was behind the attack.A new variant of WannaCry ransomware forced Taiwan Semiconductor Manufacturing Company (TSMC) to temporarily shut down several of its chip-fabrication factories in August 2018. The virus spread to 10,000 machines in TSMC's most advanced facilities.",
+    "aliases": [
+      "WCry",
+      "WannaCrypt",
+      "WannaCry",
+      "Wanna Decryptor",
+      "WanaCrypt0r 2.0",
+      "WannaCry cyberattack"
+    ],
+    "superClasses": [],
+    "types": [
+      "cyberattack"
+    ],
+    "itemDescription": "ransomware cyberattack"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q30898126",
+    "itemLabel": "2017 cyberattacks on Ukraine",
+    "link": "https://en.wikipedia.org/wiki/2017_cyberattacks_on_Ukraine",
+    "text": "A series of powerful cyberattacks using the Petya malware began on 27 June 2017 that swamped websites of Ukrainian organizations, including banks, ministries, newspapers and electricity firms. Similar infections were reported in France, Germany, Italy, Poland, Russia, United Kingdom, the United States and Australia. ESET estimated on 28 June 2017 that 80% of all infections were in Ukraine, with Germany second hardest hit with about 9%. On 28 June 2017, the Ukrainian government stated that the attack was halted. On 30 June 2017, the Associated Press reported experts agreed that Petya was masquerading as ransomware, while it was actually designed to cause maximum damage, with Ukraine being the main target.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cyberattack"
+    ],
+    "itemDescription": "series of powerful cyberattacks"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3570419",
+    "itemLabel": "billion laughs",
+    "link": "https://en.wikipedia.org/wiki/Billion_laughs_attack",
+    "text": "In computer security, a billion laughs attack is a type of denial-of-service (DoS) attack which is aimed at parsers of XML documents.It is also referred to as an XML bomb or as an exponential entity expansion attack.",
+    "aliases": [],
+    "superClasses": [
+      "denial-of-service attack"
+    ],
+    "types": [],
+    "itemDescription": "denial-of-service attack at XML parsers, exploiting entity expansion; e.g. if &a0; expands to 10 instances of &a1;, and &a1; expands to 10 instances of &a2;, etc., then &a0 expands to one billion instances of &a9; (defined simply as \"ha!\")"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3700500",
+    "itemLabel": "DNS spoofing",
+    "link": "https://en.wikipedia.org/wiki/DNS_spoofing",
+    "text": "DNS spoofing, also referred to as DNS cache poisoning, is a form of computer security hacking in which corrupt Domain Name System data is introduced into the DNS resolver's cache, causing the name server to return an incorrect result record, e.g. an IP address. This results in traffic being diverted to the attacker's computer (or any other computer).\n\n",
+    "aliases": [
+      "DNS cache poisoning"
+    ],
+    "superClasses": [
+      "spoofing attack"
+    ],
+    "types": [],
+    "itemDescription": "cyberattack in which corrupt DNS data is introduced into the DNS resolver's cache, causing the name server to return an incorrect result record, e.g. an IP address, diverting traffic to the attacker"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q389463",
+    "itemLabel": "collision attack",
+    "link": "https://en.wikipedia.org/wiki/Collision_attack",
+    "text": "In cryptography, a collision attack on a cryptographic hash tries to find two inputs producing the same hash value, i.e. a hash collision. This is in contrast to a preimage attack where a specific target hash value is specified.\nThere are roughly two types of collision attacks:\n\nCollision attack\nFind two different messages m1 and m2 such that hash(m1) = hash(m2).More generally:\n\nChosen-prefix collision attack\nGiven two different prefixes p1 and p2, find two appendages m1 and m2 such that hash(p1 \u2225 m1) = hash(p2 \u2225 m2), where \u2225 denotes the concatenation operation.\n\n",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptographic attack"
+    ],
+    "itemDescription": "cryptographic attack"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q3997746",
+    "itemLabel": "information diving",
+    "link": "https://en.wikipedia.org/wiki/Information_diving",
+    "text": "Information diving is the practice of recovering technical data, sometimes confidential or secret, from discarded material. In recent times, this has chiefly been from data storage elements in discarded  computers, most notably recoverable data remaining on hard drives. Those in charge of discarding computers usually neglect to erase the hard drive. It is often in such circumstances for an information diver to copy installed software (e.g., word processors,  operating systems, computer games, etc.). Other data may also be available, such as credit card information that was stored on the machine. Companies claim to be especially careful with customer data, but the number of data breaches by any type of entity (e.g., education, health care, insurance, government, ...) suggest problems for them as well. In the UK, information diving has been referred to as \"binology.\"In earlier times, the available discarded data included printed manuals and design records. In a famous case, a student, Jerry Schneider, discovered some discarded manuals for a telephone system ordering / shipping system and was able to build a business selling 'surplus' gear ordered from the telephone company as though for an internal company department. \nToday, files, letters, memos, photographs, IDs, passwords, credit cards, and more can be found in dumpsters. Many people do not consider that sensitive information on items they discarded may be recovered. Such information, when recovered, is sometimes usable for fraudulent purposes (see also \"identity theft\" and physical information security) Two MIT students purchased a large number of obsolete computers at yard sales and the like and found everything from credit card information to tax return data. They published a paper, Remembrance of Things Past, documenting their discoveries.Supposedly, information diving was more common in the 1980s due to lax security; when businesses became aware of the need for increased security in the early 1990s, sensitive documents were shredded before being placed in dumpsters. There is still considerable Internet activity on the subject of dumpster diving, so it is unlikely to have stopped with the widespread introduction of document shredding. Security mythology has it that curious hackers or malicious crackers commonly use this technique.\nDumpster diving is commonly practiced by \"watchdog\" organizations seeking information on groups they are investigating.  The Trinity Foundation successfully used this technique to report on the activities of televangelist Robert Tilton, and has also obtained information on Benny Hinn using this practice.  It is also sometimes used by attorneys or their agents when seeking to enforce court-ordered money judgments:  the judgment debtor's trash may contain information about assets that can then be more-readily located for levying.\n\n",
+    "aliases": [],
+    "superClasses": [
+      "cyberattack"
+    ],
+    "types": []
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q4009282",
+    "itemLabel": "email bomb",
+    "link": "https://en.wikipedia.org/wiki/Email_bomb",
+    "text": "In Internet usage, an email bomb is a form of net abuse consisting of sending huge volumes of email to an address in an attempt to overflow the mailbox or overwhelm the server where the email address is hosted in a denial-of-service attack (DoS attack).",
+    "aliases": [],
+    "superClasses": [
+      "denial-of-service attack"
+    ],
+    "types": [],
+    "itemDescription": "type of malicious email abuse consisting of sending huge volumes of email to an address in an attempt to overflow the mailbox or overwhelm the email server"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q42111396",
+    "itemLabel": "KRACK",
+    "link": "https://en.wikipedia.org/wiki/KRACK",
+    "text": "KRACK (\"Key Reinstallation Attack\") is a severe replay attack (a type of exploitable flaw) on the Wi-Fi Protected Access protocol that secures Wi-Fi connections. It was discovered in 2016 by the Belgian researchers Mathy Vanhoef and Frank Piessens of the University of Leuven. Vanhoef's research group published details of the attack in October 2017. By repeatedly resetting the nonce transmitted in the third step of the WPA2 handshake, an attacker can gradually match encrypted packets seen before and learn the full keychain used to encrypt the traffic.\nThe weakness is exhibited in the Wi-Fi standard itself, and not due to errors in the implementation of a sound standard by individual products or implementations. Therefore, any correct implementation of WPA2 is likely to be vulnerable. The vulnerability affects all major software platforms, including Microsoft Windows, macOS, iOS, Android, Linux, OpenBSD and others.The widely used open-source implementation wpa_supplicant, utilized by Linux and Android, is especially susceptible as it can be manipulated to install an all-zeros encryption key, effectively nullifying WPA2 protection in a man-in-the-middle attack.. \nThe security protocol protecting a large number of Wi-Fi devices can essentially be bypassed, potentially allowing an attacker to intercept sent and received data.",
+    "aliases": [
+      "Key Reinstallation AttaCKs"
+    ],
+    "superClasses": [],
+    "types": [
+      "cyberattack"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q50326508",
+    "itemLabel": "Q50326508",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cyberattack"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5204858",
+    "itemLabel": "DESCHALL Project",
+    "link": "https://en.wikipedia.org/wiki/DESCHALL_Project",
+    "text": "DESCHALL, short for DES Challenge, was the first group to publicly break a message which used the Data Encryption Standard (DES), becoming the $10,000 winner of the first of the set of DES Challenges proposed by RSA Security in 1997. It was established by a group of computer scientists led by Rocke Verser assisted by Justin Dolske and Matt Curtin and involved thousands of volunteers who ran software in the background on their own machines, connected by the Internet. They announced their success on June 18,  only 96 days after the challenge was announced on January 28.\n\n",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "volunteer computing",
+      "brute-force attack"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q524059",
+    "itemLabel": "fork bomb",
+    "link": "https://en.wikipedia.org/wiki/Fork_bomb",
+    "text": "In computing, a fork bomb (also called rabbit virus or wabbit) is a denial-of-service attack wherein a process continually replicates itself to deplete available system resources, slowing down or crashing the system due to resource starvation.",
+    "aliases": [
+      "wabbit",
+      "rabbit virus"
+    ],
+    "superClasses": [
+      "denial-of-service attack"
+    ],
+    "types": [],
+    "itemDescription": "denial-of-service attack wherein a process continually replicates itself to deplete available system resources, slowing down or crashing the system due to resource starvation"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5275344",
+    "itemLabel": "differential fault analysis",
+    "link": "https://en.wikipedia.org/wiki/Differential_fault_analysis",
+    "text": "Differential fault analysis (DFA) is a type of side channel attack in the field of cryptography, specifically cryptanalysis. The principle is to induce faults\u2014unexpected environmental conditions\u2014into cryptographic implementations, to reveal their internal states.\nFor example, a smartcard containing an embedded processor might be subjected to high temperature, unsupported supply voltage or current, excessively high overclocking, strong electric or magnetic fields, or even ionizing radiation to influence the operation of the processor. The processor may begin to output incorrect results due to physical data corruption, which may help a cryptanalyst deduce the instructions that the processor is running, or what its internal data state is.For DES and Triple DES, about 200 single-flipped bits are necessary to obtain a secret key. DFA was also applied successfully to the AES cipher.Many countermeasures have been proposed to defend from this kind of attacks. Most of them are based on error detection schemes.",
+    "aliases": [
+      "DFA"
+    ],
+    "superClasses": [
+      "side channel attack"
+    ],
+    "types": [],
+    "itemDescription": "type of side channel attack, in which one induces faults (unexpected environmental conditions) into cryptographic implementations to reveal their internal states"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5462700",
+    "itemLabel": "Fluhrer, Mantin and Shamir attack",
+    "link": "https://en.wikipedia.org/wiki/Fluhrer,_Mantin_and_Shamir_attack",
+    "text": "In cryptography, the Fluhrer, Mantin and Shamir attack is a stream cipher attack on the widely used RC4 stream cipher. The attack allows an attacker to recover the key in an RC4 encrypted stream from a large number of messages in that stream.\nThe Fluhrer, Mantin and Shamir attack applies to specific key derivation methods, but does not apply in general to RC4-based SSL (TLS), since SSL generates the encryption keys it uses for RC4 by hashing, meaning that different SSL sessions have unrelated keys. However, the closely related bar mitzvah attack, based on the same research and revealed in 2015, does exploit those cases where weak keys are generated by the SSL keying process.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "stream cipher attack"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q550893",
+    "itemLabel": "IP address spoofing",
+    "link": "https://en.wikipedia.org/wiki/IP_address_spoofing",
+    "text": "In computer networking, IP address spoofing or IP spoofing is the creation of Internet Protocol (IP) packets with a false source IP address, for the purpose of impersonating another computing system.",
+    "aliases": [
+      "IP spoofing"
+    ],
+    "superClasses": [
+      "spoofing attack"
+    ],
+    "types": [],
+    "itemDescription": "creating IP packets using forged IP addresses in headers"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q554830",
+    "itemLabel": "man-in-the-middle attack",
+    "link": "https://en.wikipedia.org/wiki/Man-in-the-middle_attack",
+    "text": "In cryptography and computer security, a man-in-the-middle attack (MITM) is an attack where the attacker secretly relays and possibly alters the communication between two parties who believe they are directly communicating with each other. One example of a MITM attack is active eavesdropping, in which the attacker makes independent connections with the victims and relays messages between them to make them believe they are talking directly to each other over a private connection, when in fact the entire conversation is controlled by the attacker. The attacker must be able to intercept all relevant messages passing between the two victims and inject new ones. This is straightforward in many circumstances; for example, an attacker within reception range of an unencrypted wireless access point (Wi-Fi) could insert themselves as a man-in-the-middle.As an attack that aims at circumventing mutual authentication, or lack thereof, an MITM attack can succeed only when the attacker can impersonate each endpoint to their satisfaction as expected from the legitimate ends. Most cryptographic protocols include some form of endpoint authentication specifically to prevent MITM attacks.  For example, TLS can authenticate one or both parties using a mutually trusted certificate authority.\n\n",
+    "aliases": [
+      "MITMA",
+      "MITM"
+    ],
+    "superClasses": [
+      "cryptographic attack"
+    ],
+    "types": [
+      "cryptographic attack type"
+    ],
+    "itemDescription": "form of active eavesdropping in which the attacker makes connections with the victims and relays messages between them"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q55865647",
+    "itemLabel": "cryptojacking",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cyberattack"
+    ],
+    "itemDescription": "cyber attack in which a hacker hijacks a target's processing power in order to mine cryptocurrency on the hacker's behalf"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q565636",
+    "itemLabel": "Frequency analysis",
+    "link": "https://en.wikipedia.org/wiki/Frequency_analysis",
+    "text": "In cryptanalysis, frequency analysis (also known as counting letters) is the study of the frequency of letters or groups of letters in a ciphertext. The method is used as an aid to breaking classical ciphers.\nFrequency analysis is based on the fact that, in any given stretch of written language, certain letters and combinations of letters occur with varying frequencies. Moreover, there is a characteristic distribution of letters that is roughly the same for almost all samples of that language. For instance, given a section of English language, E, T, A and O are the most common, while Z, Q and X are rare. Likewise, TH, ER, ON, and AN are the most common pairs of letters (termed bigrams or digraphs), and SS, EE, TT, and FF are the most common repeats. The nonsense phrase \"ETAOIN SHRDLU\" represents the 12 most frequent letters in typical English language text.\nIn some ciphers, such properties of the natural language plaintext are preserved in the ciphertext, and these patterns have the potential to be exploited in a ciphertext-only attack.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptographic attack"
+    ],
+    "itemDescription": "cryptographic attack"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q568825",
+    "itemLabel": "Davies' attack",
+    "link": "https://en.wikipedia.org/wiki/Davies_attack",
+    "text": "In cryptography, the Davies attack is a dedicated statistical cryptanalysis method for attacking the Data Encryption Standard (DES). The attack was originally created in 1987 by Donald Davies. In 1994, Eli Biham and Alex Biryukov made significant improvements to the technique. It is a known-plaintext attack based on the non-uniform distribution of the outputs of pairs of adjacent S-boxes. It works by collecting many known plaintext/ciphertext pairs and calculating the empirical distribution of certain characteristics. Bits of the key can be deduced given sufficiently many known plaintexts, leaving the remaining bits to be found through brute force. There are tradeoffs between the number of required plaintexts, the number of key bits found, and the probability of success; the attack can find 24 bits of the key with 252 known plaintexts and 53% success rate.\nThe Davies attack can be adapted to other Feistel ciphers besides DES. In 1998, Pornin developed techniques for analyzing and maximizing a cipher's resistance to this kind of cryptanalysis.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptographic attack"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5972803",
+    "itemLabel": "INVITE of Death",
+    "link": "https://en.wikipedia.org/wiki/INVITE_of_Death",
+    "text": "An INVITE of Death  is a type of attack on a VoIP-system that involves sending a malformed or otherwise malicious SIP INVITE request to a telephony server, resulting in a crash of that server. Because telephony is usually a critical application, this damage causes significant disruption to the users and poses tremendous acceptance problems with VoIP. These kinds of attacks do not necessarily affect only SIP-based systems; all implementations with vulnerabilities in the VoIP area are affected. The DoS attack can also be transported in other messages than INVITE. For example, in December 2007 there was a report about a vulnerability in the BYE message (\"BYE BYE\") by using an obsolete header with the name \"Also\". However, sending INVITE packets is the most popular way of attacking telephony systems. The name is a reference to the ping of death attack that caused serious trouble in 1995-1997.",
+    "aliases": [],
+    "superClasses": [
+      "denial-of-service attack"
+    ],
+    "types": []
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q5973199",
+    "itemLabel": "BGP hijacking",
+    "link": "https://en.wikipedia.org/wiki/BGP_hijacking",
+    "text": "BGP hijacking (sometimes referred to as prefix hijacking, route hijacking or IP hijacking) is the illegitimate takeover of groups of IP addresses by corrupting Internet routing tables maintained using the Border Gateway Protocol (BGP).",
+    "aliases": [],
+    "superClasses": [
+      "cyberattack"
+    ],
+    "types": [],
+    "itemDescription": "attack on Internet routing infrastructure"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q599809",
+    "itemLabel": "dictionary attack",
+    "link": "https://en.wikipedia.org/wiki/Dictionary_attack",
+    "text": "In cryptanalysis and computer security, a dictionary attack is a form of brute force attack technique for defeating a cipher or authentication mechanism by trying to determine its decryption key or passphrase by trying hundreds or sometimes millions of likely possibilities, such as words in a dictionary.",
+    "aliases": [],
+    "superClasses": [
+      "brute-force attack"
+    ],
+    "types": [
+      "method"
+    ],
+    "itemDescription": "technique for defeating a cipher or authentication mechanism by trying to determine its decryption key or passphrase by trying hundreds or sometimes millions of likely possibilities, such as words in a dictionary"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q60178212",
+    "itemLabel": "evil maid attack",
+    "link": "https://en.wikipedia.org/wiki/Evil_maid_attack",
+    "text": "An evil maid attack is an attack on an unattended device, in which an attacker with physical access alters it in some undetectable way so that they can later access the device, or the data on it. \nThe name refers to the scenario where a maid could subvert a device left unattended in a hotel room \u2013 but the concept itself also applies to situations such as a device being intercepted while in transit, or taken away temporarily by airport or law enforcement personnel.\n\n",
+    "aliases": [],
+    "superClasses": [
+      "cyberattack"
+    ],
+    "types": [],
+    "itemDescription": "computer security attack on an unattended device, in which an attacker with physical access alters it in some undetectable way so that they can later access the device, or the data on it"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q615485",
+    "itemLabel": "Birthday attack",
+    "link": "https://en.wikipedia.org/wiki/Birthday_attack",
+    "text": "A birthday attack is a type of cryptographic attack that exploits the mathematics behind the birthday problem in probability theory. This attack can be used to abuse communication between two or more parties. The attack depends on the higher likelihood of collisions found between random attack attempts and a fixed degree of permutations (pigeonholes). With a birthday attack, it is possible to find a collision of a hash function in \n  \n    \n      \n        \n          \n            \n              2\n              \n                n\n              \n            \n          \n        \n        =\n        \n          2\n          \n            n\n            \n              /\n            \n            2\n          \n        \n      \n    \n    {\\textstyle {\\sqrt {2^{n}}}=2^{n/2}}\n  , with \n  \n    \n      \n        \n          2\n          \n            n\n          \n        \n      \n    \n    {\\textstyle 2^{n}}\n   being the classical preimage resistance security. There is a general (though disputed) result that quantum computers can perform birthday attacks, thus breaking collision resistance, in \n  \n    \n      \n        \n          \n            \n              2\n              \n                n\n              \n            \n            \n              3\n            \n          \n        \n        =\n        \n          2\n          \n            n\n            \n              /\n            \n            3\n          \n        \n      \n    \n    {\\textstyle {\\sqrt[{3}]{2^{n}}}=2^{n/3}}\n  .",
+    "aliases": [],
+    "superClasses": [
+      "cryptographic attack"
+    ],
+    "types": [
+      "cryptographic attack type"
+    ],
+    "itemDescription": "type of cryptographic attack"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q620579",
+    "itemLabel": "Smurf attack",
+    "link": "https://en.wikipedia.org/wiki/Smurf_attack",
+    "text": "The Smurf attack is a distributed denial-of-service attack in which large numbers of Internet Control Message Protocol (ICMP) packets with the intended victim's spoofed source IP are broadcast to a computer network using an IP broadcast address. Most devices on a network will, by default, respond to this by sending a reply to the source IP address. If the number of machines on the network that receive and respond to these packets is very large, the victim's computer will be flooded with traffic. This can slow down the victim's computer to the point where it becomes impossible to work on.",
+    "aliases": [],
+    "superClasses": [
+      "denial-of-service attack"
+    ],
+    "types": [],
+    "itemDescription": "distributed denial-of-service attack in which many ICMP packets with the victim\u2019s source IP are broadcast to a network using an IP broadcast address; most devices respond to this by sending a reply to the source IP, overwhelming the victim\u2019s computer"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q6522491",
+    "itemLabel": "length extension attack",
+    "link": "https://en.wikipedia.org/wiki/Length_extension_attack",
+    "text": "In cryptography and computer security, a length extension attack is a type of attack where an attacker can use Hash(message1) and the length of message1 to calculate Hash(message1 \u2016 message2) for an attacker-controlled message2.  Algorithms like MD5, SHA-1, and SHA-2 that are based on the Merkle\u2013Damg\u00e5rd construction are susceptible to this kind of attack. The SHA-3 algorithm is not susceptible.When a Merkle\u2013Damg\u00e5rd based hash is misused as a message authentication code with construction H(secret \u2016 message), and message and the length of secret is known, a length extension attack allows anyone to include extra information at the end of the message and produce a valid hash without knowing the secret. Note that since HMAC doesn't use this construction, HMAC hashes are not prone to length extension attacks.",
+    "aliases": [],
+    "superClasses": [
+      "cryptographic attack"
+    ],
+    "types": [],
+    "itemDescription": "attack against cryptographical hash functions, where knowing Hash(message\u2081) and the length of message\u2081 allows an attacker to calculate Hash(message\u2081 \u2016 message\u2082) for an attacker-controlled message\u2082"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q670204",
+    "itemLabel": "ping flood",
+    "link": "https://en.wikipedia.org/wiki/Ping_flood",
+    "text": "A ping flood is a simple denial-of-service attack where the attacker overwhelms the victim with ICMP \"echo request\" (ping) packets. This is most effective by using the flood option of ping which sends ICMP packets as fast as possible without waiting for replies. Most implementations of ping require the user to be privileged in order to specify the flood option. It is most successful if the attacker has more bandwidth than the victim (for instance an attacker with a DSL line and the victim on a dial-up modem). The attacker hopes that the victim will respond with ICMP \"echo reply\" packets, thus consuming both outgoing bandwidth as well as incoming bandwidth. If the target system is slow enough, it is possible to consume enough of its CPU cycles for a user to notice a significant slowdown.\nA flood ping can also be used as a diagnostic for network packet loss and throughput issues.\n\n",
+    "aliases": [],
+    "superClasses": [
+      "denial-of-service attack"
+    ],
+    "types": [],
+    "itemDescription": "denial-of-service attack where the attacker overwhelms the victim with ICMP echo request (ping) packets"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7123320",
+    "itemLabel": "padding oracle attack",
+    "link": "https://en.wikipedia.org/wiki/Padding_oracle_attack",
+    "text": "In cryptography, a padding oracle attack is an attack which uses the padding validation of a cryptographic message to decrypt the ciphertext. In cryptography, variable-length plaintext messages often have to be padded (expanded) to be compatible with the underlying cryptographic primitive. The attack relies on having a \"padding oracle\" who freely responds to queries about whether a message is correctly padded or not. Padding oracle attacks are mostly associated with CBC mode decryption used within block ciphers. Padding modes for asymmetric algorithms such as OAEP may also be vulnerable to padding oracle attacks.",
+    "aliases": [],
+    "superClasses": [
+      "cryptographic attack"
+    ],
+    "types": [],
+    "itemDescription": "attack which uses the padding validation of a cryptographic message to decrypt the ciphertext"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7370323",
+    "itemLabel": "Rotational cryptanalysis",
+    "link": "https://en.wikipedia.org/wiki/Rotational_cryptanalysis",
+    "text": "In cryptography, rotational cryptanalysis is a generic cryptanalytic attack against algorithms that rely on three operations: modular addition, rotation and XOR \u2014 ARX for short. Algorithms relying on these operations are popular because they are relatively cheap in both hardware and software and run in constant time, making them safe from timing attacks in common implementations.\nThe basic idea of rotational cryptanalysis is that both the bit rotation and XOR operations preserve correlations between bit-rotated pairs  of inputs, and that addition of bit-rotated inputs also partially preserves bit rotation correlations. Rotational pairs of inputs can thus be used to \"see through\" the cipher's cascaded ARX operations to a greater degree than might be expected. This ability to \"see\" correlations through rounds of processing can then be exploited to break the cipher in a way that is similar to differential cryptanalysis.\nThe term \"rotational cryptanalysis\" was coined by Dmitry Khovratovich and Ivica Nikoli\u0107\nin 2010 paper \"Rotational Cryptanalysis of ARX\", which presented the best cryptanalytic attacks at that time against a reduced-round Threefish cipher \u2014 part of Skein (hash function), a SHA-3 competition candidate. A follow-up attack from the same authors and Christian Rechberger breaks collision resistance of up to 53 of 72 rounds in Skein-256, and 57 of 72 rounds in Skein-512. It also affects the Threefish cipher.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptographic attack"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7622661",
+    "itemLabel": "stream cipher attack",
+    "link": "https://en.wikipedia.org/wiki/Stream_cipher_attacks",
+    "text": "Stream ciphers, where plaintext bits are combined with a cipher bit stream by an exclusive-or operation (xor), can be very secure if used properly. However, they are vulnerable to attacks if certain precautions are not followed:\n\nkeys must never be used twice\nvalid decryption should never be relied on to indicate authenticity",
+    "aliases": [],
+    "superClasses": [
+      "cryptographic attack"
+    ],
+    "types": []
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7644524",
+    "itemLabel": "Supply chain attack",
+    "link": "https://en.wikipedia.org/wiki/Supply_chain_attack",
+    "text": "A supply chain attack is a cyber-attack that seeks to damage an organization by targeting less-secure elements in the supply network. A supply chain attack can occur in any industry, from the financial sector, oil industry or government sector. Cybercriminals typically tamper with the manufacturing process of a product by installing a rootkit or hardware-based spying components.The recent Target security breach, Eastern European ATM malware, as well as the Stuxnet computer worm are examples of supply chain attacks.\nSupply chain management experts recommend strict control of an institution's supply network in order to prevent potential damage from cybercriminals.",
+    "aliases": [],
+    "superClasses": [
+      "cyberattack"
+    ],
+    "types": []
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7907148",
+    "itemLabel": "VLAN hopping",
+    "link": "https://en.wikipedia.org/wiki/VLAN_hopping",
+    "text": "VLAN hopping is a computer security exploit, a method of attacking networked resources on a virtual LAN (VLAN).  The basic concept behind all VLAN hopping attacks is for an attacking host on a VLAN to gain access to traffic on other VLANs that would normally not be accessible.  There are two primary methods of VLAN hopping: switch spoofing and double tagging.  Both attack vectors can be mitigated with proper switch port configuration.",
+    "aliases": [
+      "double tagging",
+      "switch spoofing"
+    ],
+    "superClasses": [
+      "cyberattack"
+    ],
+    "types": []
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q7974153",
+    "itemLabel": "watering hole attack",
+    "link": "https://en.wikipedia.org/wiki/Watering_hole_attack",
+    "text": "Watering hole is a computer attack strategy, in which the victim is a particular group (organization, industry, or region). In this attack, the attacker guesses or observes which websites the group often uses and infects one or more of them with malware. Eventually, some member of the targeted group becomes infected. Hacks looking for specific information may only attack users coming from a specific IP address. This also makes the hacks harder to detect and research. The name is derived from predators in the natural world, who wait for an opportunity to attack their prey near watering holes.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cyberattack"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q869370",
+    "itemLabel": "brute-force attack",
+    "link": "https://en.wikipedia.org/wiki/Brute-force_attack",
+    "text": "In cryptography, a brute-force attack consists of an attacker submitting many passwords or passphrases with the hope of eventually guessing correctly. The attacker systematically checks all possible passwords and passphrases until the correct one is found. Alternatively, the attacker can attempt to guess the key which is typically created from the password using a key derivation function. This is known as an exhaustive key search.\nA brute-force attack is a cryptanalytic attack that can, in theory, be used to attempt to decrypt any encrypted data (except for data encrypted in an information-theoretically secure manner). Such an attack might be used when it is not possible to take advantage of other weaknesses in an encryption system (if any exist) that would make the task easier.\nWhen password-guessing, this method is very fast when used to check all short passwords, but for longer passwords other methods such as the dictionary attack are used because a brute-force search takes too long. Longer passwords, passphrases and keys have more possible values, making them exponentially more difficult to crack than shorter ones.\nBrute-force attacks can be made less effective by obfuscating the data to be encoded making it more difficult for an attacker to recognize when the code has been cracked or by making the attacker do more work to test each guess. One of the measures of the strength of an encryption system is how long it would theoretically take an attacker to mount a successful brute-force attack against it.\nBrute-force attacks are an application of brute-force search, the general problem-solving technique of enumerating all candidates and checking each one.",
+    "aliases": [
+      "exhaustive key search",
+      "brute force attack"
+    ],
+    "superClasses": [
+      "cryptographic attack"
+    ],
+    "types": [
+      "cryptographic attack type",
+      "use"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q919179",
+    "itemLabel": "LAND",
+    "link": "https://en.wikipedia.org/wiki/LAND",
+    "text": "A LAND (Local Area Network Denial) attack is a DoS (Denial of Service) attack that consists of sending a special poison spoofed packet to a computer, causing it to lock up. The security flaw was first discovered in 1997 by someone using the alias \"m3lt\", and has resurfaced many years later in operating systems such as Windows Server 2003 and Windows XP SP2.",
+    "aliases": [
+      "Local Area Network Denial attack",
+      "Local Area Network Denial",
+      "LAND attack"
+    ],
+    "superClasses": [],
+    "types": [
+      "spoofing attack",
+      "denial-of-service attack"
+    ],
+    "itemDescription": "Denial of Service attack"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q938066",
+    "itemLabel": "Meet-in-the-middle attack",
+    "link": "https://en.wikipedia.org/wiki/Meet-in-the-middle_attack",
+    "text": "The meet-in-the-middle attack (MITM) is a generic space\u2013time tradeoff cryptographic attack against encryption schemes which rely on performing multiple encryption operations in sequence. The MITM attack is the primary reason why Double DES is not used and why a Triple DES key (168-bit) can be bruteforced by an attacker with 256 space and 2112 operations.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptographic attack"
+    ],
+    "itemDescription": "cryptographic attack"
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q53219",
+    "itemLabel": "DNS cache poisoning",
+    "aliases": [
+      "cache poisoning attacks",
+      "cache poisoning attack",
+      "DNS spoofing"
+    ],
+    "superClasses": [
+      "DNS spoofing"
+    ],
+    "types": [],
+    "itemDescription": "Malicious situation created or unwanted manner provided data from a Domain Name Server (DNS)"
+  }
+]

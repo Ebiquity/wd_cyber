@@ -1,0 +1,1272 @@
+[
+  {
+    "item": "http://www.wikidata.org/entity/Q1307473",
+    "itemLabel": "Ripple",
+    "itemDescription": "Payment protocol",
+    "link": "https://en.wikipedia.org/wiki/Ripple_(payment_protocol)",
+    "text": "Ripple is a real-time gross settlement system, currency exchange and remittance network created by Ripple Labs Inc., a US-based technology company. Released in 2012, Ripple is built upon a distributed open source protocol, and supports tokens representing fiat currency, cryptocurrency, commodities, or other units of value such as frequent flier miles or mobile minutes.  Ripple purports to enable \"secure, instantly and nearly free global financial transactions of any size with no chargebacks.\"\nThe ledger employs the decentralized native cryptocurrency known as XRP, which as of  September 2018 was the second largest coin by market capitalization. Ripple has been adopted by banks and payment networks as settlement infrastructure technology. Ripple relies on a common shared ledger, which is a distributed database storing information about all Ripple accounts. The network is \"managed by a network of independent validating servers that constantly compare their transaction records.\" Servers could belong to anyone, including banks or market makers. Ripple validates accounts and balances instantly for payment transmission and delivers payment notification with very little latency (within a few seconds). Payments are irreversible, and there are no chargebacks.For its creation and development of the Ripple protocol (RTXP) and the Ripple payment/exchange network Ripple Labs was named as one of 2014's 50 Smartest Companies in the February 2014 edition of MIT Technology Review. A scientific study made by two researchers from Stanford and Stockholm University that studied the money production from an energy consumption point of view and a macroeconomic level stated that running a server on Ripple was comparable to the energy needs of running an email server.",
+    "aliases": [
+      "Ripple Transaction Protocol",
+      "Ripple protocol",
+      "Ripple monetary system"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "digital currency",
+      "free software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q131723",
+    "itemLabel": "Bitcoin",
+    "itemDescription": "digital cash system and associated currency",
+    "link": "https://en.wikipedia.org/wiki/Bitcoin",
+    "text": "Bitcoin (\u20bf) is a cryptocurrency, a form of electronic cash. It is a decentralized digital currency without a central bank or single administrator that can be sent from user to user on the peer-to-peer bitcoin network without the need for intermediaries.Transactions are verified by network nodes through cryptography and recorded in a public distributed ledger called a blockchain. Bitcoin was invented by an unknown person or group of people using the name Satoshi Nakamoto and released as open-source software in 2009. Bitcoins are created as a reward for a process known as mining. They can be exchanged for other currencies, products, and services. Research produced by the University of Cambridge estimates that in 2017, there were 2.9 to 5.8 million unique users using a cryptocurrency wallet, most of them using bitcoin.Bitcoin has been criticized for its use in illegal transactions, its high electricity consumption, price volatility, thefts from exchanges, and the possibility that bitcoin is an economic bubble. Bitcoin has also been used as an investment, although several regulatory agencies have issued investor alerts about bitcoin.",
+    "aliases": [
+      "bitcoin",
+      "XBT",
+      "BTC"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q13479984",
+    "itemLabel": "Zerocoin",
+    "link": "https://en.wikipedia.org/wiki/Zerocoin_protocol",
+    "text": "Zerocoin is a privacy protocol proposed by Johns Hopkins University professor Matthew D. Green and his graduate students (Ian Miers and Christina Garman) in 2013 as an extension to the Bitcoin protocol that would improve Bitcoin transactions' anonymity.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15177466",
+    "itemLabel": "Peercoin",
+    "itemDescription": "Bitcoin derivitive proof of stake cryptocurrency",
+    "link": "https://en.wikipedia.org/wiki/Peercoin",
+    "text": "Peercoin, also known as PPCoin or PPC, is a peer-to-peer cryptocurrency utilizing both proof-of-stake and proof-of-work systems.\nPeercoin is based on an August 2012 paper which listed the authors as Scott Nadal and Sunny King. King, who also created Primecoin, is a pseudonym. The Peercoin source code is distributed under the MIT/X11 software license.\nIn the proof-of-stake system, new coins are generated based on the holdings of individuals. In other words, someone holding 1% of the currency will generate 1% of all proof-of-stake coin blocks. This has the effect of making a monopoly more costly, and separates the risk of a monopoly from proof-of-work mining shares.",
+    "aliases": [
+      "PPCoin",
+      "PPC"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15179199",
+    "itemLabel": "Primecoin",
+    "itemDescription": "Cryptocurrency based on prime numbers",
+    "link": "https://en.wikipedia.org/wiki/Primecoin",
+    "text": "Primecoin (sign: \u03a8; code: XPM) is a cryptocurrency that implements a proof-of-work system that searches for chains of prime numbers.\nLaunched on July 7, 2013 by anonymous hacker and peercoin founder Sunny King, Primecoin was the first cryptocurrency to have a proof-of-work system with a practical use. Earlier cryptocurrencies, such as Bitcoin, were mined using algorithms that solved arbitrary mathematical problems, the results of which had no value or use outside of mining the cryptocurrency itself. Primecoin's algorithm, however, computed chains of prime numbers (Cunningham and bi-twin chains), the results of which were published on its blockchain's public ledger, available for use by scientists, mathematicians, and anyone else. Use of a proof-of-work system to calculate chains of prime numbers was an innovation that produced useful results while also meeting the criteria for a proof-of-work system: it involved a calculation that was difficult to perform but easy to verify, and the difficulty was adjustable.Shortly after its launch, some trade journals reported that the rush of over 18,000 new users seeking to mine Primecoin overwhelmed providers of dedicated servers.Unlike Bitcoin, Primecoin targets a block generation period of one minute rather than every ten minutes, changes difficulty every block rather than every 2016 blocks, and has a block reward that is a function of the difficulty (blockreward = 999/difficulty) rather than fixed. Primecoin transactions are confirmed approximately 8\u201310 times as fast as Bitcoin transactions.",
+    "aliases": [
+      "XPM"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15272284",
+    "itemLabel": "Feathercoin",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "digital currency",
+      "payment system",
+      "free software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15377916",
+    "itemLabel": "Dogecoin",
+    "itemDescription": "cryptocurrency developed from the 'doge' Internet meme",
+    "link": "https://en.wikipedia.org/wiki/Dogecoin",
+    "text": "Dogecoin ( DOHZH-koyn, code: DOGE, symbol: \u00d0 and D) is a cryptocurrency featuring a likeness of the Shiba Inu dog from the \"Doge\" Internet meme as its logo. Introduced as a \"joke currency\" on 6 December 2013, Dogecoin quickly developed its own online community and reached a capitalization of US$60 million in January 2014.Compared with other cryptocurrencies, Dogecoin had a fast initial coin production schedule: 100 billion coins were in circulation by mid-2015, with an additional 5.256 billion coins every year thereafter. As of  30 June 2015, the 100 billionth Dogecoin had been mined. While there are few mainstream commercial applications, the currency has gained traction as an Internet tipping system, in which social media users grant Dogecoin tips to other users for providing interesting or noteworthy content. Dogecoin is referred to as an altcoin.",
+    "aliases": [
+      "DOGE"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15427118",
+    "itemLabel": "Novacoin",
+    "itemDescription": "cryptocurrency",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "free and open-source software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15494057",
+    "itemLabel": "Mastercoin",
+    "aliases": [
+      "Omni"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15614087",
+    "itemLabel": "Coinye",
+    "itemDescription": "now-defunct cryptocurrency named after Kanye West",
+    "link": "https://en.wikipedia.org/wiki/Coinye",
+    "text": "Coinye, formerly Coinye West, is an abandoned scrypt-based cryptocurrency that became embroiled in a trademark infringement lawsuit for using the likeness of American hip hop artist Kanye West as its mascot, despite West having no affiliation with the project. The project was abandoned by the original developers following West's filing of a trademark infringement lawsuit against them.\n\n",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15916990",
+    "itemLabel": "Nxt",
+    "link": "https://en.wikipedia.org/wiki/Nxt",
+    "text": "Nxt is an open source cryptocurrency and payment network launched in 2013 by anonymous software developer BCNext. It uses proof-of-stake to reach consensus for transactions\u2014as such there is a static money supply and, unlike bitcoin, no mining. Nxt was specifically conceived as a flexible platform around which to build applications and financial services.\nNxt has been covered extensively in the \"Call for Evidence\" report by ESMA.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "free software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15966458",
+    "itemLabel": "MazaCoin",
+    "itemDescription": "cryptocurrency",
+    "link": "https://en.wikipedia.org/wiki/MazaCoin",
+    "text": "MazaCoin (Maza, MZC) is a cryptocurrency launched in 2014. Its developer Payu Harris promoted it as a potential future official currency of the Oglala Lakota tribe.\n\n",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q15981447",
+    "itemLabel": "Auroracoin",
+    "itemDescription": "Cryptocurrency",
+    "link": "https://en.wikipedia.org/wiki/Auroracoin",
+    "text": "Auroracoin (code: AUR, symbol: \u16a0) is a peer-to-peer cryptocurrency launched in February 2014 as an Icelandic alternative to bitcoin and the Icelandic kr\u00f3na. The unknown creator or creators use the pseudonym Baldur Friggjar \u00d3\u00f0insson (or Odinsson). They stated that they planned to distribute half of auroracoins that would ever be created to all 330,000 people listed in Iceland's national ID database beginning on March 25, 2014, free of charge, coming out to 31.8 auroracoins per person.Auroracoin was created as an alternative currency to address the government restrictions on Iceland's kr\u00f3na, in place since 2008, which severely restricts movement of the currency outside the country. Iceland's Foreign Exchange Act (at the time) prohibited the foreign exchange of bitcoins from the country, according to a government minister. Auroracoin was the first of a number of country-based cryptocurrencies.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q16324525",
+    "itemLabel": "pesetacoin",
+    "aliases": [
+      "PTC"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q16783523",
+    "itemLabel": "Ethereum",
+    "itemDescription": "public blockchain platform with programmable transaction functionality",
+    "link": "https://en.wikipedia.org/wiki/Ethereum",
+    "text": "Ethereum is an open-source, public, blockchain-based distributed computing platform and operating system featuring smart contract (scripting) functionality. It supports a modified version of Nakamoto consensus via transaction-based state transitions.\nEther is a token whose blockchain is generated by the Ethereum platform. Ether can be transferred between accounts and used to compensate participant mining nodes for computations performed. Ethereum provides a decentralized virtual machine, the Ethereum Virtual Machine (EVM), which can execute scripts using an international network of public nodes. The virtual machine's instruction set, in contrast to others like Bitcoin Script, is thought to be Turing-complete. \"Gas\", an internal transaction pricing mechanism, is used to mitigate spam and allocate resources on the network.Ethereum was proposed in late 2013 by Vitalik Buterin, a cryptocurrency researcher and programmer. Development was funded by an online crowdsale that took place between July and August 2014.The system went live on 30 July 2015, with 72 million coins \"premined\". This accounts for about 70 percent of the total circulating supply in 2018.\nIn 2016, as a result of the exploitation of a flaw in The DAO project's smart contract software, and subsequent theft of $50 million worth of Ether, Ethereum was split into two separate blockchains \u2013 the new separate version became Ethereum (ETH) with the theft reversed, and the original continued as Ethereum Classic (ETC).The value of the Ethereum token grew over 13,000 percent in 2017, to over $1400. By September 2018, it had fallen back to $200.",
+    "aliases": [
+      "ETH"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "web service"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q17001970",
+    "itemLabel": "Counterparty",
+    "itemDescription": "Counterparty",
+    "link": "https://en.wikipedia.org/wiki/Counterparty_(platform)",
+    "text": "Counterparty is a financial platform for creating peer-to-peer financial applications on the bitcoin blockchain. The protocol specification and all Counterparty software is open source. The reference client is counterparty and a web wallet called Counterwallet showcases all protocol features. The protocol\u2019s native currency, XCP, is the fuel that powers Counterparty. It is slightly deflationary, with approximately 2.6 million XCP having been created by burning Bitcoins in January 2014. Counterparty provides users with the world's first functioning decentralized digital currency exchange, as well as the ability to create their own virtual assets, issue dividends, create price feeds, bets and contracts for difference.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q17155887",
+    "itemLabel": "Dash",
+    "itemDescription": "cryptocurrency",
+    "link": "https://en.wikipedia.org/wiki/Dash_(cryptocurrency)",
+    "text": "Dash is an open source cryptocurrency and is a form of decentralized autonomous organization (DAO) run by a subset of users, called \"masternodes\". It is an altcoin that was forked from the Bitcoin protocol. The currency permits fast transactions that can be untraceable.",
+    "aliases": [
+      "Dash (cryptocurrency)",
+      "Darkcoin"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q17492392",
+    "itemLabel": "BlackCoin",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "free software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q17870327",
+    "itemLabel": "Stellar",
+    "itemDescription": "Payment & Exchange Network",
+    "link": "https://en.wikipedia.org/wiki/Stellar_(payment_network)",
+    "text": "Stellar is an open-source, decentralized protocol for digital currency to fiat currency transfers which allows cross-border transactions between any pair of currencies. The Stellar protocol is supported by a nonprofit, the Stellar Development Foundation.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q18572818",
+    "itemLabel": "Gridcoin",
+    "itemDescription": "cryptocurrency that rewards BOINC",
+    "link": "https://en.wikipedia.org/wiki/Gridcoin",
+    "text": "Gridcoin implements a \"Proof-of-Research\" (POR) scheme, which rewards users with Gridcoin for performing useful scientific computations on the Berkeley Open Infrastructure for Network Computing (BOINC), a distributed computing platform. Gridcoin uses a more energy efficient proof-of-stake system - although it fails to explicitly address the energy cost of computing power.Gridcoin attempts to ease the environmental energy impact of cryptocurrency mining through its Proof-of-Research and Proof-of-Stake protocols.",
+    "aliases": [
+      "GridCoin",
+      "grc"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "digital currency",
+      "payment system",
+      "free and open-source software",
+      "project",
+      "software",
+      "free software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q18756242",
+    "itemLabel": "NEM",
+    "itemDescription": "cryptocurrency",
+    "link": "https://en.wikipedia.org/wiki/NEM_(cryptocurrency)",
+    "text": "NEM is a peer-to-peer cryptocurrency and blockchain platform launched on March 29, 2015. Written in Java, with a C++ version in the works, NEM has a stated goal of a wide distribution model and has introduced new features to blockchain technology such as its proof-of-importance (POI) algorithm, multisignature accounts, encrypted messaging, and an Eigentrust++ reputation system. The NEM blockchain software is used in a commercial blockchain called Mijin, which is being tested by financial institutions and private companies in Japan and internationally.NEM technology allows multiple ledgers to coexist on one blockchain. NEM Smart Assets allows users to create mosaics which can represent any asset (e.g. currency). All transactions in NEM have transaction fee associated with them and denomination used to pay for transactions is mosaic named XEM.\nIn July 2018 the NEM Foundation opened a Blockchain center in Kuala Lumpur, Malaysia, to serve as an incubator, accelerator, co-working space as well as Southeast Asian regional headquarters for NEM in the region. It is considered the largest blockchain centre in the Southeast Asian Region at 11,000 square feet.",
+    "aliases": [
+      "New Economy Movement"
+    ],
+    "superClasses": [],
+    "types": [
+      "blockchain",
+      "cryptocurrency",
+      "digital currency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q19893485",
+    "itemLabel": "Monero",
+    "itemDescription": "an Open-source cryptocurrency",
+    "link": "https://en.wikipedia.org/wiki/Monero_(cryptocurrency)",
+    "text": "Monero (XMR) is an open-source cryptocurrency created in April 2014 that focuses on fungibility, privacy and decentralization. Monero uses an obfuscated public ledger, meaning anybody can broadcast or send transactions, but no outside observer can tell the source, amount or destination. Monero uses a Proof of Work mechanism to issue new coins and incentivize miners to secure the network and validate transactions.\nThe privacy afforded by Monero has attracted use by people interested in evading law enforcement during events such as the WannaCry Ransomware Attack, or on the dark web buying illegal substances. Despite this, Monero is actively encouraged to those seeking financial privacy, since payments and account balances remain entirely hidden, which is not the standard for most cryptocurrencies.",
+    "aliases": [
+      "Bitmonero",
+      "XMR",
+      "MO"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "digital currency",
+      "free software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q19893642",
+    "itemLabel": "NeuCoin",
+    "link": "https://en.wikipedia.org/wiki/NeuCoin",
+    "text": "Peercoin, also known as PPCoin or PPC, is a peer-to-peer cryptocurrency utilizing both proof-of-stake and proof-of-work systems.\nPeercoin is based on an August 2012 paper which listed the authors as Scott Nadal and Sunny King. King, who also created Primecoin, is a pseudonym. The Peercoin source code is distributed under the MIT/X11 software license.\nIn the proof-of-stake system, new coins are generated based on the holdings of individuals. In other words, someone holding 1% of the currency will generate 1% of all proof-of-stake coin blocks. This has the effect of making a monopoly more costly, and separates the risk of a monopoly from proof-of-work mining shares.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q19894203",
+    "itemLabel": "PotCoin",
+    "link": "https://en.wikipedia.org/wiki/PotCoin",
+    "text": "PotCoin (code: POT) is a peer-to-peer cryptocurrency which exists with the aim of becoming the standard form of payment for the legalized cannabis industry. PotCoin is an open source software project released under the MIT/X11 license and was technically nearly identical to Litecoin until August 23, 2015, when Potcoin changed to Proof-of-Stake-Velocity (PoSV). PotCoin is not managed by any central authority and provides a decentralised solution for the transfer of value.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q20313354",
+    "itemLabel": "Bitstake",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q20639637",
+    "itemLabel": "EagleCoin",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q21002847",
+    "itemLabel": "FairCoin",
+    "itemDescription": "cryptocurrency",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q21013061",
+    "itemLabel": "Emercoin",
+    "aliases": [
+      "EMC"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "digital wallet",
+      "software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q21064683",
+    "itemLabel": "Titcoin",
+    "link": "https://en.wikipedia.org/wiki/Titcoin",
+    "text": "Titcoin (Ticker Symbol: TIT) is a type of digital currency called a cryptocurrency that uses pornography on a decentralized peer-to-peer network to manage the issuance of new currency units while simultaneously processing transactions. Titcoin is a derivative of the Bitcoin source code with key modifications to the software which greatly improve transaction speeds and network difficulty readjustments. Titcoin is exclusively designed for and marketed towards the adult entertainment industry to allow owners of the currency to pay for adult products and services without the fear of incriminating payment histories appearing on their credit cards.In 2015, Titcoin received two nominations at the 2015 XBIZ Awards ceremony which honors companies that play an essential part in the growth and success of adult entertainment. In 2016, Titcoin was nominated for a second year in a row as Alternative Payment Services Company of the Year at the 2016 XBIZ Awards.\nAs of mid-2017, it has a very low total market capitalization of about $100,000 USD. There is no notable trade volume registered.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q21539958",
+    "itemLabel": "SixEleven",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q21857460",
+    "itemLabel": "Dashcoin",
+    "aliases": [
+      "DASH"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q22907391",
+    "itemLabel": "NuBits",
+    "link": "https://en.wikipedia.org/wiki/NuBits",
+    "text": "NuBits is a cryptocurrency which advertises itself as a stablecoin issued by a DAO under the same name. Shareholders achieve stability in NuBits by placing buy and sell orders at $1.00 using revenue from NuBit sales kept in external digital currencies (such as Bitcoin).NuBits attempts to keep price stability by distributing voting shares (NuShares), which have the ability to vote on motions and network changes. Holders of NuShares earn rewards as an incentive to stabilize the network. Partial revenue is distributed to shareholders to create a mechanism for deep backing by incentive for investment when NuBits leaving circulation exceed the value of Nu's liquidity reserve. Additionally, holders of NuBits have the ability to lock away NuBits to gain interest (from Nu's reserves), which in turn reduces the circulating supply.As of March 18th, 2018, NuBits has decoupled from its $1.00 price and has not been able to maintain a stable peg against the US dollar, trading at $0.35 as of June 2018.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q22909807",
+    "itemLabel": "Woodcoin",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q22991158",
+    "itemLabel": "SwiftCoin",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q23199031",
+    "itemLabel": "SolarCoin",
+    "itemDescription": "crypto-currency",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q24526428",
+    "itemLabel": "Lisk",
+    "itemDescription": "platform that provides decentralized blockchain apps",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q25036138",
+    "itemLabel": "Syscoin",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q25104171",
+    "itemLabel": "Decred",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q2577141",
+    "itemLabel": "Namecoin",
+    "itemDescription": "cryptocurrency based on Bitcoin",
+    "link": "https://en.wikipedia.org/wiki/Namecoin",
+    "text": "Namecoin (Symbol: \u2115 or NMC) is a cryptocurrency that is mined with bitcoin software as bonus.  It is based on the code of bitcoin and uses the same proof-of-work algorithm.  Like bitcoin, it is limited to 21 million coins.Unlike bitcoin, Namecoin can store data within its own blockchain transaction database.  The original proposal for Namecoin called for Namecoin to insert data into bitcoin's blockchain directly. Anticipating scaling difficulties with this approach, a shared proof-of-work (POW)  system was proposed to secure new cryptocurrencies with different use cases.\nNamecoin's flagship use case is the censorship-resistant top level domain .bit, which is functionally similar to .com or .net domains but is independent of ICANN, the main governing body for domain names.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "free software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q27148141",
+    "itemLabel": "Zcash",
+    "itemDescription": "cryptocurrency",
+    "link": "https://en.wikipedia.org/wiki/Zcash",
+    "text": "Zcash is a cryptocurrency aimed at using cryptography to provide enhanced privacy for its users compared to other cryptocurrencies such as Bitcoin. \nLike Bitcoin, Zcash has a fixed total supply of 21 million units.Transactions can be \"transparent\" and similar to bitcoin transactions in which case they are controlled by a t-addr, or can be a type of zero-knowledge proof called zk-SNARKs; the transactions are then said to be \"shielded\" and are controlled by a z-addr.  Zcash coins are either in a transparent pool or a shielded pool; as of December 2017 only around 4% of Zcash coins were in the shielded pool and at that time most wallet programs did not support z-addrs and no web-based wallets supported them.Zcash affords private transactors the option of \"selective disclosure\", allowing a user to prove payment for auditing purposes. One such reason is to allow private transactors the choice to comply with anti-money laundering or tax regulations. \"Transactions are auditable but disclosure is under the participant's control.\"  The company has hosted virtual meetings with law enforcement agencies around the U.S. to explain these fundamentals and has gone on the record of saying that \"they did not develop the currency to facilitate illegal activity\".",
+    "aliases": [
+      "ZEC"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q28127134",
+    "itemLabel": "Bitnation",
+    "link": "https://en.wikipedia.org/wiki/Bitnation",
+    "text": "Bitnation, or cryptonation,:5 is a \"voluntary nation\" that records vital records, identity and other legal events using blockchain technology. Bitnation was founded in 2014 using Ethereum smart contract technology.:13 As of 2018, it has about 15,000 \"citizens\". Its 2018 whitepaper describes Bitnation as \"the world's first Decentralized Borderless Voluntary Nation.\" Bitnation organized the world\u2019s first Blockchain Marriage and World Citizenship ID, Blockchain Land Title, Birth Certificate and Refugee Emergency ID during 2014 and 2015.Bitnation seeks to provide open-source governance, which includes DIY smart contracts mainly on governance, security and law.:13 The subsidiary services include constitutions, secure ID/Reputation systems, dispute resolutions, security, insurance, marriages, notary service, and birth certifications.:13",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q28127193",
+    "itemLabel": "Synereo",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q28130189",
+    "itemLabel": "Vertcoin",
+    "itemDescription": "cryptocurrency",
+    "link": "https://en.wikipedia.org/wiki/Vertcoin",
+    "text": "Vertcoin (VTC) is an open-source cryptocurrency created in early 2014 that focuses on decentralization. Vertcoin uses a  proof-of-work mechanism to issue new coins and incentivize miners to secure the network and validate transactions.",
+    "aliases": [
+      "VTC"
+    ],
+    "superClasses": [],
+    "types": [
+      "Peer-to-peer banking",
+      "cryptocurrency",
+      "digital currency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q28765889",
+    "itemLabel": "Burstcoin",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q29583124",
+    "itemLabel": "Ethereum Classic",
+    "itemDescription": "blockchain-based distributed computing platform",
+    "link": "https://en.wikipedia.org/wiki/Ethereum_Classic",
+    "text": "Ethereum Classic is an open-source, public, blockchain-based distributed computing platform featuring smart contract (scripting) functionality. It provides a decentralized Turing-complete virtual machine, the Ethereum Virtual Machine (EVM), which can execute scripts using an international network of public nodes. Ethereum Classic and Ethereum have a value token called \"ether\", which can be transferred between participants, stored in a cryptocurrency wallet and is used to compensate participant nodes for computations performed in the Ethereum Platform. The classic ether token is traded on cryptocurrency exchanges under the ticker symbol ETC. Gas, an internal transaction pricing mechanism, is used to prevent spam on the network and allocate resources proportionally to the incentive offered by the request.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "digital currency",
+      "cryptocurrency",
+      "software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q30324611",
+    "itemLabel": "Internet of People",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q30324920",
+    "itemLabel": "Waves platform",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q30325421",
+    "itemLabel": "DigiByte",
+    "aliases": [
+      "DGB"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q30504331",
+    "itemLabel": "IOTA",
+    "itemDescription": "open-source distributed ledger and cryptocurrency",
+    "aliases": [
+      "IOTA (cryptocurrency)"
+    ],
+    "superClasses": [],
+    "types": [
+      "digital currency",
+      "cryptocurrency",
+      "free and open-source software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q30938181",
+    "itemLabel": "Algorand",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q34285806",
+    "itemLabel": "Permacoin",
+    "itemDescription": "cryptocurrency system designed to also store/archive data as a distributed file system",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q34328146",
+    "itemLabel": "Bitcoin Cash",
+    "itemDescription": "fork of the cryptocurrency Bitcoin in August 2017",
+    "link": "https://en.wikipedia.org/wiki/Bitcoin_Cash",
+    "text": "Bitcoin Cash is a cryptocurrency. In mid-2017, a group of developers wanting to increase bitcoin's block size limit prepared a code change. The change, called a hard fork, took effect on 1 August 2017. As a result, the bitcoin ledger called the blockchain and the cryptocurrency split in two. At the time of the fork anyone owning bitcoin was also in possession of the same number of Bitcoin Cash units.On 15 November 2018 Bitcoin Cash split into two cryptocurrencies.",
+    "aliases": [
+      "Bcash",
+      "BCH",
+      "BCC"
+    ],
+    "superClasses": [],
+    "types": [
+      "fork",
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q39048590",
+    "itemLabel": "Filecoin",
+    "link": "https://en.wikipedia.org/wiki/Filecoin",
+    "text": "Filecoin (\u2a0e) is an open-source, public, cryptocurrency and digital payment system intended to be a blockchain-based cooperative digital storage and data retrieval method. It is made by Protocol Labs and builds on top of InterPlanetary File System, allowing users to rent unused hard drive space.Filecoin has raised $52 million in a pre-initial coin offering (pre-ICO) sale and $200 million in ICO.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q39048661",
+    "itemLabel": "STORJ",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q4043030",
+    "itemLabel": "Litecoin",
+    "itemDescription": "cryptocurrency",
+    "link": "https://en.wikipedia.org/wiki/Litecoin",
+    "text": "Litecoin (LTC or \u0141) is a peer-to-peer cryptocurrency and open-source software project released under the MIT/X11 license. Creation and transfer of coins is based on an open source cryptographic protocol and is not managed by any central authority. Litecoin was an early bitcoin spinoff or altcoin, starting in October 2011.  In technical details, litecoin is nearly identical to Bitcoin.",
+    "aliases": [
+      "LTC"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "digital currency",
+      "free and open-source software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q41805988",
+    "itemLabel": "Bytecoin",
+    "aliases": [
+      "Bytecoin (cryptocurrency)"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q42148852",
+    "itemLabel": "Bitcoin Gold",
+    "itemDescription": "fork of the cryptocurrency Bitcoin from October 2017",
+    "link": "https://en.wikipedia.org/wiki/Bitcoin_Gold",
+    "text": "Bitcoin Gold is a distributed digital currency. It is a hard fork of Bitcoin, the open source cryptocurrency. The stated purpose of the hard fork is to restore the mining functionality with common Graphics Processing Units (GPU), in place of mining with specialized ASIC (customized chipsets), used to mine Bitcoin.ASIC resistant GPU powered mining provides a solution, as this kind of hardware is ubiquitous, and anyone can start mining with a standard, off-the-shelf laptop computer.\nBitcoin Gold was hit by double-spending attack on May 18, 2018.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "electronic money",
+      "cryptocurrency",
+      "payment system"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q42907547",
+    "itemLabel": "Nxt",
+    "itemDescription": "Nxt cryptocoin",
+    "aliases": [
+      "Nxtcoin"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q44268550",
+    "itemLabel": "BitShares",
+    "itemDescription": "decentralized cryptocurrency exchange",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q45231354",
+    "itemLabel": "OmiseGO",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q45750264",
+    "itemLabel": "Chaucha",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q46600518",
+    "itemLabel": "Verge",
+    "itemDescription": "cryptocurrency",
+    "link": "https://en.wikipedia.org/wiki/Verge_(cryptocurrency)",
+    "text": "Verge is a decentralized open-source cryptocurrency that claims to offer anonymous transactions by obfuscating the IP address of users with Tor, making it difficult to determine the geolocation of its users. \nVerge is an open source project that leverages the Wraith Protocol, using Tor to encrypt and hide transaction IP addresses.",
+    "aliases": [
+      "XVG"
+    ],
+    "superClasses": [],
+    "types": [
+      "digital currency",
+      "cryptocurrency",
+      "free software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q46696265",
+    "itemLabel": "Bitcoin Dark",
+    "aliases": [
+      "BitcoinDark",
+      "BTCD"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "digital currency",
+      "free software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q46995946",
+    "itemLabel": "Bitcoin God",
+    "itemDescription": "cryptocurrency",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q46996009",
+    "itemLabel": "Zclassic",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "business",
+      "software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q47134419",
+    "itemLabel": "TRON",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q47265875",
+    "itemLabel": "CryptoRuble",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q47273538",
+    "itemLabel": "Cardano",
+    "itemDescription": "cryptocurrency platform",
+    "aliases": [
+      "ADA"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "digital currency",
+      "free software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q47457131",
+    "itemLabel": "Bitconnect",
+    "itemDescription": "peer to peer cryptocurrency",
+    "link": "https://en.wikipedia.org/wiki/Bitconnect",
+    "text": "Bitconnect (also spelled BitConnect and stylized bitconnect, ticker BCC) is an open-source cryptocurrency which was connected with the high-yield investment program bitconnect.co. After the platform administrators closed the earning platform on January 16 2018 and distributed users funds in BCC, confidence was lost and the value of the coin plummeted to below $1 from a previous high of nearly $500.  The coin value collapse is one of the largest in the history of cryptocurrency.\nThe Bitconnect lending platform was closed on January 16, 2018. Loan values were distributed to the users in BCC coin.  As a direct result of the information of the closing of the lending platform traders sent the price crashing down and liquidity all but disappeared.\n\n",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "digital currency",
+      "Internet memes"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q47461682",
+    "itemLabel": "NEO",
+    "link": "https://en.wikipedia.org/wiki/NEO_(cryptocurrency)",
+    "text": "NEO is a blockchain platform and cryptocurrency designed to build a scalable network of decentralized applications. The base asset of the NEO blockchain is the non divisible NEO token which generates GAS tokens that can be used to pay the transaction fees to utilize the NEO network.NEO rebranded from Antshares to NEO in June 2017.In March 2018, parent company Onchain distributed 1 ontology (ONT) token for every 5 NEO held in a user's wallet which will be used to vote on system upgrades, identity verification, and other governance issues on the NEO platform.A total of 100 million NEO were created in the Genesis Block. 50 million NEO were sold to early investors, with the remaining 50 million NEO locked into a smart contract. Each year, 15 million NEO tokens are unlocked which can be used by the NEO development team to fund long term development goals. NEO tokens generate a slowly deflationary amount of GAS tokens which are used to pay for transactions on the network. The inflation rate of GAS is controlled with a decaying half life algorithm that will release 100 million GAS over approximately 22 years.NEO uses a delegated Byzantine Fault Tolerance (dBFT) consensus mechanism and can support up to 10,000 transactions per second.The core of the NEO feature set revolves around tools that allow developers to efficiently deploy and scale smart contract applications on the NEO blockchain X.509 Digital Identities allow developers to tie tokens to real world identities which aids in complying with KYC/AML and other regulatory requirements.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q47488338",
+    "itemLabel": "KodakCoin",
+    "link": "https://en.wikipedia.org/wiki/KodakCoin",
+    "text": "KODAKCoin is a photographer-oriented blockchain cryptocurrency used for payments for licensing photographs. The initial coin offering (ICO) was scheduled for January 31, 2018, but was delayed for several weeks so that accredited investors could be validated.In May 2018, the company announced that it would offer Simple Agreement for Future Tokens (SAFT), and that investors would not receive tokens until the KodakONE product is complete. According to KODAK, KODAKCoins will be issued by July 1, 2019 unless, in the opinion of its legal counsel, \"KODAKCoin tokens will not be deemed to be \u201csecurities\u201d within the meaning of Section 2(a)(1) of the Securities Act.\"",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q47494147",
+    "itemLabel": "EOS",
+    "link": "https://en.wikipedia.org/wiki/EOS.IO",
+    "text": "EOS.IO is a blockchain protocol powered by the native cryptocurrency EOS. The protocol emulates most of the attributes of a real computer including hardware (CPU(s) & GPU(s) for processing, local/RAM memory, hard-disk storage) with the computing resources distributed equally among EOS cryptocurrency holders. EOSIO operates as a smart contract platform and decentralized operating system intended for the deployment of industrial-scale decentralized applications through a decentralized autonomous corporation model. The smart contract platform claims to eliminate transaction fees and also conduct millions of transactions per second.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "free software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q47504639",
+    "itemLabel": "Electroneum",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q47510188",
+    "itemLabel": "\u011e1",
+    "itemDescription": "cryptocurrency launched in 2017",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q47519257",
+    "itemLabel": "Power Ledger",
+    "itemDescription": "Blockchain-based cryptocurrency and energy trading platform",
+    "link": "https://en.wikipedia.org/wiki/Power_Ledger",
+    "text": "Power Ledger (POWR) is an Australian blockchain-based cryptocurrency and energy trading platform that allows for decentralized selling and buying of renewable energy. The platform provides consumers with access to a variety of energy markets around the globe and is meant to be scalable to various energy infrastructures and regulations. The market is based on a dual-token ecosystem operating on two blockchain layers, POWR and Sparkz. POWR tokens allow consumers and hosts providing energy to interface with the ecosystem and are protected through Smart Bond technology. POWR tokens can be converted into Sparkz tokens, which can be used for frictionless transactions in the energy exchange market. The initial coin offering for POWR tokens became the largest crowd funding project in Australia and the 14th highest in the world.",
+    "aliases": [
+      "POWR"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q47519264",
+    "itemLabel": "Factom",
+    "itemDescription": "Blockchain technology company",
+    "aliases": [
+      "FCT"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q47519275",
+    "itemLabel": "RChain",
+    "itemDescription": "Open-source blockchain platform",
+    "aliases": [
+      "RHOC"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q47519818",
+    "itemLabel": "Simple Token",
+    "itemDescription": "Blockchain project and cryptocurrency which enables digital communities to design, launch, and manage their own branded tokens on open, scalable Ethereum side-chains.",
+    "aliases": [
+      "OST"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q47528658",
+    "itemLabel": "Tether",
+    "link": "https://en.wikipedia.org/wiki/Tether_(cryptocurrency)",
+    "text": "Tether is a controversial cryptocurrency with tokens issued by Tether Limited,. It formerly claimed that each token was backed by one United States dollar, but on March 14, 2019 changed the backing to include loans to affiliate companies. Tether was called a stablecoin because it was originally designed to always be worth $1.00.Tether Limited states that Tether is not a financial instrument. They further state that owners of Tethers have no contractual rights, other legal claims, or guarantees against losses.Tether Limited and the tether cryptocurrency are controversial because of the company's failure to provide a promised audit showing adequate reserves backing tether, its alleged role in manipulating the price of bitcoin, the unclear relationship with the Bitfinex exchange, and the company's apparent lack of a long-term banking relationship. Author David Gerard was quoted by the Wall Street Journal saying that tether \"is sort of the central bank of crypto trading ... [yet] they don't conduct themselves like you'd expect a responsible, sensible financial institution to do.\" Tether's price decreased to lows of $0.90 on 15 October 2018 on speculation that investors are losing faith in the token. On November 20, 2018, Bloomberg reported that U.S. federal prosecutors are investigating whether tether was used to manipulate the price of bitcoin.",
+    "aliases": [
+      "usdt"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q47697469",
+    "itemLabel": "abjcoin",
+    "itemDescription": "Abjcoin is a bitcoin based cryptocurrency for Africa",
+    "aliases": [
+      "ABJ"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q47868368",
+    "itemLabel": "WhiteCoin",
+    "itemDescription": "cryptocurrency",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "digital currency",
+      "payment system",
+      "free software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q48629674",
+    "itemLabel": "Horizen",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q48651476",
+    "itemLabel": "Royal Mint Gold",
+    "link": "https://en.wikipedia.org/wiki/Royal_Mint_Gold",
+    "text": "Royal Mint Gold is a digital gold currency and a cryptocurrency backed by gold reserves in the UK Royal Mint. The Royal Mint began testing blockchain transactions in April 2017.  The first test transaction was in August 2017. The rollout was originally scheduled to occur by the end of 2017. US-based CME Group (Chicago Mercantile Exchange) is administering the trading. The Daily Telegraph said it \"appears somewhat similar to an exchange-traded fund such as ETF Securities Physical Gold\".",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q48699037",
+    "itemLabel": "Cashaa",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q48742284",
+    "itemLabel": "Musicoin",
+    "itemDescription": "distributed computing platform, fork of Ethereum",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q49164728",
+    "itemLabel": "HTMLCOIN",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "digital currency",
+      "payment system",
+      "free software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q49164739",
+    "itemLabel": "DeepOnion",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "digital currency",
+      "payment system",
+      "free software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q49164743",
+    "itemLabel": "Pandacoin",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "digital currency",
+      "payment system",
+      "free software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q49164748",
+    "itemLabel": "NeosCoin",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "digital currency",
+      "payment system",
+      "free software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q49966719",
+    "itemLabel": "estcoin",
+    "link": "https://en.wikipedia.org/wiki/Estcoin",
+    "text": "Estcoin is a proposed national cryptocurrency, devised by the Government of Estonia in August 2017. In June 2018, amid criticism from banking authorities, Estcoin's plans were revised to no longer peg its value to the euro, nor for it to be a national cryptocurrency, but that Estonia would plans to \u201cexplore various possibilities\u201d for blockchain technology such as Estcoin becoming the official currency of its e-Residency of Estonia program. As will be restricted to individuals within the Estonia E-Residency program, it cannot be exchanged freely and thus technically doesn't qualify as a cryptocurrency.\n\n",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q53039605",
+    "itemLabel": "Basic Attention Token",
+    "link": "https://en.wikipedia.org/wiki/Basic_Attention_Token",
+    "text": "Brave is a free and open-source web browser developed by Brave Software Inc. based on the Chromium web browser. The browser blocks ads and website trackers. In a future version of the browser, the company has proposed adopting a pay-to-surf business model.\nAs of 2018, Brave supports Windows, macOS, Linux, Android, and iOS. The current version features 20 search engines by default, including their partner DuckDuckGo.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q53263815",
+    "itemLabel": "Gram",
+    "itemDescription": "cryptocurrency",
+    "link": "https://en.wikipedia.org/wiki/Gram_(cryptocurrency)",
+    "text": "Telegram is a cloud-based instant messaging and voice over IP service developed by Telegram Messenger LLP, a privately held company registered in London, United Kingdom, founded by the Russian entrepreneur Pavel Durov and his brother Nikolai. Telegram client apps are available for Android, iOS, Windows Phone, Windows NT, macOS and Linux. Users can send messages and exchange photos, videos, stickers, audio and files of any type.\nTelegram's client-side code is open-source software but the source code for recent versions is not always immediately published, whereas its server-side code is closed-source and proprietary. The service also provides APIs to independent developers. In March 2018, Telegram stated that it had 200 million monthly active users. According to its CEO, as of  April 2017, Telegram\u2019s annual growth rate was greater than 50%.Messages and media in Telegram are only client-server encrypted and stored on the servers by default. The service provides end-to-end encryption for voice calls, and optional end-to-end encrypted \"secret\" chats between two online users, yet not for groups or channels.Telegram's security model has received notable criticism by cryptography experts. They criticized the general security model of permanently storing all contacts, messages and media together with their decryption keys on its servers by default and by not enabling end-to-end encryption for messages by default. Pavel Durov has argued that this is because it helps to avoid third-party unsecure backups, and to allow users to access messages and files from any device. Cryptography experts have furthermore criticized Telegram's use of a custom-designed encryption protocol that has not been proven reliable and secure.Telegram has faced censorship or outright bans in some countries over accusations that the app's services have been used to facilitate illegal activities, such as protests and terrorism, as well as declining demands to facilitate government access to user data and communications.",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q54810365",
+    "itemLabel": "OTN",
+    "aliases": [
+      "Open Trading Network"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q55133398",
+    "itemLabel": "Bitcoin Private",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "free and open-source software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q55290870",
+    "itemLabel": "Tezos",
+    "itemDescription": "Blockchain project",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "project",
+      "software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q55343615",
+    "itemLabel": "Steem",
+    "itemDescription": "social media cryptocurrency",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "social networking service",
+      "free and open-source software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q55479749",
+    "itemLabel": "Maxcoin",
+    "itemDescription": "crypto currency",
+    "aliases": [
+      "MaxCoin",
+      "MAX"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency",
+      "free software"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q55498825",
+    "itemLabel": "Counos",
+    "itemDescription": "Counos is a kind of cryptocurrency",
+    "aliases": [
+      "www.counos.io"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q55582088",
+    "itemLabel": "Stablecoin",
+    "link": "https://en.wikipedia.org/wiki/Stablecoin",
+    "text": "Stablecoins are cryptocurrencies designed to minimize the volatility of the price of the stablecoin, relative to some \"stable\" asset or basket of assets. A stablecoin can be pegged to a currency, or to exchange traded commodities (such as precious metals or industrial metals). Stablecoins backed by currencies or commodities directly are said to be centralized, whereas those leveraging other cryptocurrencies are referred to as decentralized.",
+    "aliases": [],
+    "superClasses": [
+      "cryptocurrency"
+    ],
+    "types": []
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q55648452",
+    "itemLabel": "non-fungible token",
+    "itemDescription": "special type of cryptographic token which represents something unique",
+    "link": "https://en.wikipedia.org/wiki/Non-fungible_token",
+    "text": "A non-fungible token (NFT) is a special type of cryptographic token which represents something unique; non-fungible tokens are thus not interchangeable. This is in contrast to cryptocurrencies like bitcoin, and many network or utility tokens that are fungible in nature.",
+    "aliases": [],
+    "superClasses": [
+      "cryptocurrency"
+    ],
+    "types": []
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q55654897",
+    "itemLabel": "Siacoin",
+    "itemDescription": "cryptocurrency to buy and sell storage used by the Sia software",
+    "aliases": [
+      "SC"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q55950713",
+    "itemLabel": "Siafund",
+    "itemDescription": "cryptocurrency that grants its holders with 3.9% of all successful storage contract payouts on Sia marketplace",
+    "aliases": [
+      "SiaNotes",
+      "Sia Notes",
+      "Sia Funds",
+      "SF"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q57305725",
+    "itemLabel": "Maker (MKR)",
+    "itemDescription": "ERC20 token",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "ERC20",
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q58006570",
+    "itemLabel": "Q",
+    "itemDescription": "cryptocurrency",
+    "link": "https://en.wikipedia.org/wiki/Initiative_Q",
+    "text": "Initiative Q is an attempt to create a new payment network and digital currency. It was created by Israeli entrepreneur Saar Wilf, who previously founded Fraud Sciences, a payment security company acquired by PayPal. Initiative Q is backed by Cato Institute economist Lawrence H. White. Unlike Bitcoin the scheme would not take measures to evade state regulation.Initiative Q\u2019s goal is to replace payment cards and paper money that use old infrastructure with a new payment system leveraging current-day technologies. It is \u201ccreating a new currency (the Q) and distributing it to anyone who helps speed up adoption.\" The Q is not a cryptocurrency and is not decentralized, but will instead be overseen by an independent monetary committee, much like a central bank.",
+    "aliases": [
+      "Initiative Q"
+    ],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q59284625",
+    "itemLabel": "Nimiq",
+    "itemDescription": "cryptocurrency",
+    "aliases": [],
+    "superClasses": [],
+    "types": [
+      "cryptocurrency"
+    ]
+  },
+  {
+    "item": "http://www.wikidata.org/entity/Q60446561",
+    "itemLabel": "YesManCoin",
+    "itemDescription": "Cryptocurrency token",
+    "aliases": [
+      "YESM"
+    ],
+    "superClasses": [],
+    "types": [
+      "software",
+      "cryptocurrency"
+    ]
+  }
+]
