@@ -2,7 +2,23 @@
 # coding: utf-8
 
 """
-retrieve possibly useful data on cybersecurity concepts from Wikidata
+Retrieve possibly useful data on cybersecurity concepts from Wikidata
+
+wd_cyber_concepts is bound to a dict where keys are QIDs of some cybersecurity concepts (e.g., malware, cyberattack).  For each we find all subclasses and instances, both immediate and inherited, and for each one return a a json object with potentially useful items. Here's an example of one for malware:
+
+ {"item": "http://www.wikidata.org/entity/Q23670513",
+  "itemLabel": "Petya",
+  "itemDescription": "malware",
+  "link": "https://en.wikipedia.org/wiki/Petya_(malware)",
+  "text": "Petya is a family of encrypting ransomware that was first discovered in 2016. The malware targets Microsoft Windows-based systems, infecting the master boot record to execute a payload that encrypts a hard drive's file system table and prevents Windows from booting. It subsequently demands that the user make a payment in Bitcoin in order to regain access to the system.\nVariants of Petya were first seen in March 2016, which propagated via infected e-mail attachments. In June 2017, a new variant of Petya was used for a global cyberattack, primarily targeting Ukraine. The new variant propagates via the EternalBlue exploit, which is generally believed to have been developed by the  U.S. National Security Agency (NSA), and was used earlier in the year by the WannaCry ransomware. Kaspersky Lab referred to this new version as NotPetya to distinguish it from the 2016 variants, due to these differences in operation. In addition, although it purports to be ransomware, this variant was modified so that it is unable to actually revert its own changes.",
+  "aliases": ["Petya.2017"],
+  "superClasses": [],
+  "types": ["computer worm", "Trojan horse"] }
+
+It can be called from the command line like:
+   python3 glossary.py <output directory>
+and it writes one line for each of the concepts in wd_
+
 """
 
 from SPARQLWrapper import SPARQLWrapper, JSON
@@ -44,7 +60,7 @@ order by ?item
 
 # wd concepts of interest
 
-wd_items = {
+wd_cyber_concepts = {
   'Q14001': 'malware',
   'Q4071928': 'cyberattack',
   'Q477202': 'cryptographic hash function',
@@ -62,7 +78,7 @@ wd_items = {
 }
 
 # for testing...
-# wd_items = {'Q14001': 'malware'}
+# wd_cyber_concepts = {'Q14001': 'malware'}
 
 def get_data(qid, endpoint=default_endpoint):
         query = concept_query.format(QID=qid)
@@ -100,12 +116,12 @@ def print_data(qid, endpoint=default_endpoint):
     result = get_data(qid, endpoint=default_endpoint)
     print(json.dumps(result, indent=2))
 
-def dump_data(outdir):
+def dump_data(outdir='glossary_output', concepts=wd_cyber_concepts):
     # create output directory if needed
     if not os.path.exists(outdir):
         os.makedirs(outdir)
-    # process each qid in wd_items    
-    for qid, name in wd_items.items():
+    # process each qid in wd_cyber_concepts    
+    for qid, name in concepts.items():
         print(qid, name)
         filename = name.replace(' ', '_') + '.json'
         path = os.path.join(outdir, filename)
@@ -114,7 +130,12 @@ def dump_data(outdir):
 
 if __name__ == '__main__':
     p = argparse.ArgumentParser()
-    p.add_argument('outdir', nargs='?', default=os.getcwd(), help='directory for output')
+    p.add_argument('-o', '--outputDirectory', default='glossary_output', help='directory for output')
+    p.add_argument('-c', '--concept', default=None, help='specific wikidata concept qid, e.g. Q14001')
     args = p.parse_args()
-    dump_data(args.outdir)
+    if args.concept:
+        concepts = {args.concept:args.concept}
+    else:
+        concepts = wd_cyber_concepts        
+    dump_data(outdir=args.outputDirectory, concepts=concepts)
 

@@ -129,7 +129,7 @@
     "item": "http://www.wikidata.org/entity/Q1756025",
     "itemLabel": "replay attack",
     "link": "https://en.wikipedia.org/wiki/Replay_attack",
-    "text": "A replay attack (also known as playback attack) is a form of network attack in which a valid data transmission is maliciously or fraudulently repeated or delayed. This is carried out either by the originator or by an adversary who intercepts the data and re-transmits it, possibly as part of a masquerade attack by IP packet substitution. This is one of the lower tier versions of a \"Man-in-the-middle attack\".\nAnother way of describing such an attack is:\n\"an attack on a security protocol using replay of messages from a different context into the intended (or original and expected) context, thereby fooling the honest participant(s) into thinking they have successfully completed the protocol run.\"",
+    "text": "A replay attack (also known as playback attack) is a form of network attack in which a valid data transmission is maliciously or fraudulently repeated or delayed. This is carried out either by the originator or by an adversary who intercepts the data and re-transmits it, possibly as part of a masquerade attack by IP packet substitution. This is one of the lower tier versions of a \"Man-in-the-middle attack\".\nAnother way of describing such an attack is:\n\"an attack on a security protocol using replay of messages from a different context into the intended (or original and expected) context, thereby fooling the honest participant(s) into thinking they have successfully completed the protocol run.\"\n\n",
     "aliases": [
       "playback attack"
     ],
@@ -232,8 +232,8 @@
     "aliases": [],
     "superClasses": [],
     "types": [
-      "cyberattack",
-      "cryptographic attack"
+      "cryptographic attack",
+      "cyberattack"
     ],
     "itemDescription": "cryptographic attack that forces the use of weaker or no encryption"
   },
@@ -303,8 +303,8 @@
     ],
     "superClasses": [],
     "types": [
-      "theft",
-      "2015\u201316 SWIFT banking hack"
+      "2015\u201316 SWIFT banking hack",
+      "theft"
     ],
     "itemDescription": "heist via the SWIFT network from  a Bangladesh Bank account at the Federal Reserve Bank of New York"
   },
