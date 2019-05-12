@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-
-
 """
 
 wd_search(string, required_types=[], limit=10) Search for up to 10
@@ -37,7 +35,6 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 import pywikibot
 import argparse
 import pprint
-
 
 # make wikidata the default for pywikibot search
 default_search_site = pywikibot.Site("wikidata", "wikidata")
@@ -119,7 +116,8 @@ wd_whitelist = {
   'Q4825885':'authentication protocol',
   'Q2659904':'government organization',
   'Q1668024':'service on internet',
-  'Q202833':'social media'
+  'Q202833':'social media',
+  'Q870898':'computer security software'
 }
 
 # wikidata types that should not be in a search result
@@ -153,7 +151,7 @@ def wd_entity_id(url):
 
 def wd_search(string, required_types=[], limit=10):
     """ search for up to limit cyber-relevant entities whose label or
-        alias matches string and has a t least one type in
+        alias matches string and has at least one type in
         required_types, if not [] """
     candidates = wd_name_search(string, limit=limit)
     hits = []

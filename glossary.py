@@ -16,8 +16,12 @@ wd_cyber_concepts is bound to a dict where keys are QIDs of some cybersecurity c
   "types": ["computer worm", "Trojan horse"] }
 
 It can be called from the command line like:
-   python3 glossary.py <output directory>
-and it writes one line for each of the concepts in wd_
+   python3 glossary.py
+   python3 glossary.py -o <output directory>    
+   python3 glossary.py -c <qid>
+   python3 glossary.py -o <output directory> -c <qid>
+
+and it writes one json object for each of the concepts involved
 
 """
 
@@ -27,7 +31,6 @@ import json
 import requests
 import pywikibot
 import argparse
-from urllib.parse import quote_plus
 
 # make wikidata the default for pywikibot search
 default_search_site = pywikibot.Site("wikidata", "wikidata")
