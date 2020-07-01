@@ -1,11 +1,6 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 """
-
-wd_search(string, required_types=[], limit=10) Search for up to 10
-cyber-relevant entities whose label or alias matches string
-and has at least one type in required_types, if provided.  candidates found are filtered by their immediate and inherited types to require that they have at least one cybersecurity-relevant type (e.g., malware) and no typoes from a blacklist (e.g., musical artist).
+wd_search(string, required_types=[], limit=10) Search Wikidata for up to 10
+relevant items whose label, alias or text matches string and has at least one type in required_types, if provided.  candidates found are filtered by their immediate and inherited types to require that they have at least one cybersecurity-relevant type (e.g., malware) and no typoes from a blacklist (e.g., musical artist).
 
 The return value is a list, roughly ordered from best to worst match.  For example, searching for 'wannacry' produces two hits:
 
@@ -22,8 +17,7 @@ The return value is a list, roughly ordered from best to worst match.  For examp
     'match':{'language':'en', 'text':'WannaCry', 'type':'label'},
     'types':[('Q14001','malware'), ('Q7397','software')]}]
 
-You can call this from the command line for experimentation, e.g. usage:
-
+Call this from the command line for experimentation, e.g.:
    python3 wd_search.py <string> [<required types>]
    python3 wd_search.py Adobe
    python3 wd_search.py python Q7397
@@ -31,157 +25,102 @@ You can call this from the command line for experimentation, e.g. usage:
 
 """
 
+import argparse as ap
+import sys
+import json
 from SPARQLWrapper import SPARQLWrapper, JSON
-import pywikibot
-import argparse
-import pprint
+import requests
 
-# make wikidata the default for pywikibot search
-default_search_site = pywikibot.Site("wikidata", "wikidata")
+def get_args():
+    p = ap.ArgumentParser()
+    p.add_argument('string', help='string to search for in label, alias or text')
+    p.add_argument('--limit', nargs='?', type=int, default=10, help='number of hits to find')    
+    p.add_argument('-t', '--types', nargs='?', default='Q35120', help='must be one of these types (comma seperate IDs: "Q5,Q68")')
+    p.add_argument('-o', '--out', nargs='?', type=ap.FileType('w'), default=sys.stdout, help='file for output (defaults to stdout)')
+    args = p.parse_args()
+    args.types = [t for t in args.types.split(',')]
+    return args
 
 
 # sparql endpoints
-wd_endpoint = "https://query.wikidata.org/bigdata/namespace/wdq/sparql"
-dbpedia = "http://dbpedia.org/sparql"
-default_endpoint = wd_endpoint
+default_endpoint = "https://query.wikidata.org/bigdata/namespace/wdq/sparql"
 
 
-# find items with the given string as a label or alias
-q_label_alias = """select ?item ?itemLabel ?type ?typeLabel where {{
-   ?item rdfs:label|skos:altLabel "{STR}"@en; wdt:P31/wdt:P279* ?type .
-   SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }}}}"""
+# user agent for http request (required by wikidata query service)
+USER_AGENT = "SearchBot/1.0 (Tim Finin)"
 
-# get item types and their labels
-q_types_labels = """
+
+# SPARQL query to get a wikidata item's type IDs and labels
+q_types_labels_query = """
 select ?type ?typeLabel where {{
-   wd:{QID} (wdt:P31/wdt:P279*)|wdt:P279+ ?type .
+   wd:{QID} wdt:P31/wdt:P279* ?type .
    SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }}}} 
 """
 
-# get item types
-q_types = """select ?type where {{ wd:{QID} wdt:P31/wdt:P279* ?type .}}"""
-
-
 # searching wikidata returns entities some of whch are of interest and
-# others not.  We filter these by requiring an entitie to have a type
+# others not.  We filter these by requiring an entities to have a type
 # on the whitelist and no types on the backlist
 
-# cybersecurity-relevant wikidata types: one of these must be a type
-# of a good search result
 
-wd_whitelist = {
-  'Q5': 'human',
-  'Q43229': 'organization',
-  'Q82794': 'geographic region',
-  'Q1048835': 'political territorial entity',
-  'Q7397': 'software',
-  'Q205663': 'process',
-  'Q68': 'computer',
-  'Q1301371': 'network',
-  'Q14001': 'malware',
-  'Q783794': 'company',
-  'Q161157': 'password',
-  'Q1541645': 'process identifier',
-  'Q4418000': 'network address',
-  'Q5830907': 'computer memory',
-  'Q82753': 'computer file',
-  'Q2904148': 'information leak',
-  'Q4071928': 'cyberattack',
-  'Q477202': 'cryptographic hash function',
-  'Q141090': 'encryption',
-  'Q5227362': 'data theft',
-  'Q631425': 'computer vulnerability',
-  'Q627226': 'Common Vulnerabilities and Exposures',
-  'Q2801262': 'hacker group',
-  'Q2798820': 'security hacker',
-  'Q8142': 'currency',
-  'Q2587068': 'sensitive information',
-  'Q3966': 'computer hardware',
-  'Q17517': 'mobile phone',
-  'Q986008': 'payment system',
-  'Q13479982': 'cryptocurrency',
-  'Q20826013': 'software version',
-  'Q20631656': 'software release',
-  'Q44601380': 'property that may violate privacy',
-  'Q1058914': 'software company',
-  'Q278610': 'Dropper',
-  'Q1332289':'black hat',
-  'Q2798820':'security hacker',
-  'Q22685':'hacktivism',
-  'Q47913':'intelligence agency',
-  'Q28344495':'computer security consultant',
-  'Q26102':'whistleblower',
-  'Q317671':'botnet',
-  'Q9135':'operating system',
-  'Q4825885':'authentication protocol',
-  'Q2659904':'government organization',
-  'Q1668024':'service on internet',
-  'Q202833':'social media',
-  'Q870898':'computer security software'
-}
-
-# wikidata types that should not be in a search result
-wd_blacklist = {
-  'Q4438121':'sports organization',
-  'Q11410':'game',
-  'Q14897293':'fictional entity',
-  'Q32178211':'music organisation',
-  'Q16010345':'performer',
-  'Q483501':'artist',
-  'Q56678558':'unknown composer author',
-  'Q28555911':'ordinary matter',
-  'Q49848':'document'
-}
-
-# set of wikidata types for entities of interest
-wd_whitelist_types = set(wd_whitelist.keys())
-
-# set of wikidata types for entities not of interest
-wd_blacklist_types = set(wd_blacklist.keys())
-
-
-def prettyPrint(item):
-    pprint.PrettyPrinter(indent=2).pprint(item)
-    
 def wd_entity_id(url):
     """ returns entity id if url is an entity, else the url"""
     return url.split('http://www.wikidata.org/entity/')[1] if url.startswith('http://www.wikidata.org/entity/') else url
 
-
-
-def wd_search(string, required_types=[], limit=10):
-    """ search for up to limit cyber-relevant entities whose label or
-        alias matches string and has at least one type in
+def wd_search(string, required_types=[], good_types=[], bad_types=[], isa_type=False, limit=10):
+    """ search for up to limit items whose text matches string and has at least one type in
         required_types, if not [] """
-    candidates = wd_name_search(string, limit=limit)
+    candidates = wd_string_search(string, limit=limit)
+    # print("CANDIDATES:", len(candidates))
     hits = []
+    seen = set()
     # get each item's types
-    for item in candidates['search']:
-        types = get_types(item['id'], required_types=required_types)
-        if types:
-            item['types'] = list(types)
-            # remmove unwanted properties
-            item.pop('repository', None)
-            item.pop('url', None)
-            item.pop('pageid', None)
-            item.pop('title', None)
-            hits.append(item)
+    for item in candidates:
+        id = item['title']
+        # print('Checking:', id)
+        if id not in seen:
+            seen.add(id)
+            types = get_types(id , required_types, good_types, bad_types, isa_type)
+            if types:
+                # print('NEW HIT:', id)
+                item['types'] = list(types)
+                # remmove unwanted properties
+                item.pop('ns', None)
+                hits.append(item)
     return hits
 
-def wd_name_search(name, site=default_search_site, limit=10):
-    # search wikidata for entities whose label of alias matches name
-    params = {'action':'wbsearchentities', 'format':'json', 'language':'en',              'type':'item', 'search':name, 'limit':limit}
-    return pywikibot.data.api.Request(site=site, parameters=params).submit()
+def wd_string_search(string, limit=20):
+    # search wikidata for items containing string
+    api_url = "https://www.wikidata.org/w/api.php"
+    params = {'action':'query', 'list':'search', 'srsearch':string, 'srlimit':limit, 'format':'json'}
+    result = requests.Session().get(url=api_url, params=params).json()
+    #print(json.dumps(result, indent=2))
+    #return [item['title'] for item in result['query']['search']]
+    return [item for item in result['query']['search']]
 
-def get_types(id, required_types=[], good_types=wd_whitelist_types, bad_types=wd_blacklist_types, endpoint=default_endpoint):
+def get_types(id, required_types, good_types, bad_types, isa_type, endpoint=default_endpoint):
     """
     Given a wikidata id (e.g., Q7803487), returns a set of its types.
     """
-    query = q_types_labels.format(QID=id)
-    sparql = SPARQLWrapper(endpoint)
-    sparql.setReturnFormat(JSON)
-    sparql.setQuery(query)
-    results = sparql.query().convert()
+    def process_type_collection(types):
+        """ convert a dict or list to a set if neccessary, sample element to see if it's a Qd """
+        if isinstance(types, dict):
+            types = set(types.keys())
+        elif isinstance(types, list):
+            types = set(types)
+        elif not isinstance(types, set):
+            print('***** Arg to get_types must be a dict, list or set', types)
+            types = set([])
+        if types:
+            sample = next(iter(s))
+            if not sample[0] == 'Q':
+                print('***** Arg to get_types must specify wikidata entity ids', types)
+                types = set()
+        return types
+            
+    # retrieve types for wd id
+    query = q_types_labels_query.format(QID=id)
+    results = query_wd(query, endpoint=endpoint)
+    # select the good types, bail if we find a bad type
     types = set([])
     found_required_type = False if required_types else True
     for result in results["results"]["bindings"]:
@@ -194,30 +133,31 @@ def get_types(id, required_types=[], good_types=wd_whitelist_types, bad_types=wd
             types.add(id_label)
         elif id in bad_types:
             return None
+    # bail if we did not find a required type
     if required_types and not found_required_type:
         return None
     return types
 
+def query_wd(query, endpoint=default_endpoint):
+    sparql = SPARQLWrapper(endpoint, agent=USER_AGENT)
+    sparql.setReturnFormat(JSON)
+    sparql.setQuery(query)
+    return sparql.query().convert()
+
+def isa_type(qid):
+    """ returns True iff qid is a type, i.e., has an instance, a subtype or a supertype """
+    query = "ASK {{?x wdt:P31|wdt:P279|^wdt:P279 wd:{} }}".format(qid)
+    result = query_wd(query, endpoint=default_endpoint)
+    return result['boolean']
 
 
-### Test examples
-#prettyPrint(wd_search('acrobat'))
-#prettyPrint(wd_search('ukraine'))
-#prettyPrint(wd_search('anonymous'))
-#prettyPrint(wd_search('ibm'))
-#prettyPrint(wd_search('black hat'))
-#prettyPrint(wd_search('Shadow Brokers'))
-#prettyPrint(wd_search('julian assange'))
-#prettyPrint(wd_search('ddos'))
-#prettyPrint(wd_search('linux'))
-#print(get_types('Q27134643'))
-
+def main(args):
+    result = wd_search(args.string, limit=args.limit, required_types=args.types)
+    with args.out as out:
+        out.write(json.dumps(result, indent=2, separators=(',', ':')))
 
 if __name__ == '__main__':
-    p = argparse.ArgumentParser()
-    p.add_argument('string', help='string to search for in a label or alias')
-    p.add_argument('types', nargs='?', default='', help='comma seperate ids: "Q5,Q68"')
-    args = p.parse_args()
-    qtypes = [t for t in args.types.split(',')] if args.types else []
-    prettyPrint(wd_search(args.string, required_types=qtypes))
+    args = get_args()
+    main(args)
+
 
